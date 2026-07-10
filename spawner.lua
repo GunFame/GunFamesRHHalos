@@ -9,7 +9,7 @@ local playerGui = player:WaitForChild("PlayerGui")
 -- ─── SECURITY ACCESS REMOTE WHITELIST ───
 -- Checks if the user's Roblox UserId is registered in your online database/JSON file!
 local HttpService = game:GetService("HttpService")
-local whitelistUrl = "https://raw.githubusercontent.com/GunFame/GunFamesRHHalos/main/Havenwait.json"
+local whitelistUrl = "https://raw.githubusercontent.com/GunFame/GunFamesRHHalos/main/Havenwait.json?nocache=" .. tostring(math.random(1, 999999))
 
 local function isWhitelisted()
     local myId = player.UserId
