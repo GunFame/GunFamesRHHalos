@@ -1035,7 +1035,7 @@ titleLabel.Parent = custFrame
 local titleLabelGrad = Instance.new("UIGradient")
 titleLabelGrad.Color = ColorSequence.new({
     ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 60, 150)),
-    titleLabelGrad.Parent = titleLabel
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(200, 100, 255))
 })
 titleLabelGrad.Parent = titleLabel
 
