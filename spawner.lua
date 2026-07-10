@@ -9,7 +9,7 @@ local playerGui = player:WaitForChild("PlayerGui")
 -- ─── SECURITY ACCESS REMOTE WHITELIST ───
 -- Checks if the user's Roblox UserId is registered in your online database/JSON file!
 local HttpService = game:GetService("HttpService")
-local whitelistUrl = "https://raw.githubusercontent.com/AikoHansen/RoyaleHighHalos/main/whitelist.json"
+local whitelistUrl = "https://raw.githubusercontent.com/GunFame/GunFamesRHHalos/main/Havenwait.json"
 
 local function isWhitelisted()
     local myId = player.UserId
@@ -59,8 +59,8 @@ if not verified then
     screenGui.Parent = playerGui
     
     local mainFrame = Instance.new("Frame")
-    mainFrame.Size = UDim2.new(0, 320, 0, 180)
-    mainFrame.Position = UDim2.new(0.5, -160, 0.4, -90)
+    mainFrame.Size = UDim2.new(0, 360, 0, 200)
+    mainFrame.Position = UDim2.new(0.5, -180, 0.4, -100)
     mainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 17)
     mainFrame.BorderSizePixel = 0
     mainFrame.Parent = screenGui
@@ -75,53 +75,113 @@ if not verified then
     stroke.Parent = mainFrame
     
     local title = Instance.new("TextLabel")
-    title.Size = UDim2.new(1, 0, 0, 30)
+    title.Size = UDim2.new(1, 0, 0, 40)
     title.BackgroundTransparency = 1
-    title.Text = "✧ ACCESS DENIED ✧"
+    title.Text = "ACCESS DENIED"
     title.TextColor3 = Color3.fromRGB(255, 60, 150)
     title.Font = Enum.Font.GothamBold
-    title.TextSize = 12
+    title.TextSize = 14
     title.Parent = mainFrame
     
+    local closeX = Instance.new("TextButton")
+    closeX.Size = UDim2.new(0, 20, 0, 20)
+    closeX.Position = UDim2.new(1, -25, 0, 10)
+    closeX.Text = "X"
+    closeX.TextColor3 = Color3.fromRGB(255, 60, 150)
+    closeX.BackgroundTransparency = 1
+    closeX.Font = Enum.Font.GothamBold
+    closeX.TextSize = 12
+    closeX.Parent = mainFrame
+    closeX.MouseButton1Click:Connect(function()
+        screenGui:Destroy()
+    end)
+    
     local desc = Instance.new("TextLabel")
-    desc.Size = UDim2.new(0.9, 0, 0, 60)
-    desc.Position = UDim2.new(0.05, 0, 0, 40)
+    desc.Size = UDim2.new(0.9, 0, 0, 80)
+    desc.Position = UDim2.new(0.05, 0, 0, 35)
     desc.BackgroundTransparency = 1
-    desc.Text = "Your Roblox UserId is not whitelisted.\n\nUserId: " .. tostring(player.UserId) .. "\nSend this ID to the seller to purchase access."
+    desc.Text = "Your Roblox UserId is not whitelisted.\n\nUserId: " .. tostring(player.UserId) .. "\n\nCopy your ID and send it to RoyaleStock.lol to be whitelisted."
     desc.TextColor3 = Color3.fromRGB(200, 200, 200)
     desc.Font = Enum.Font.GothamSemibold
-    desc.TextSize = 10
+    desc.TextSize = 11
     desc.TextWrapped = true
     desc.Parent = mainFrame
     
-    local copyBtn = Instance.new("TextButton")
-    copyBtn.Size = UDim2.new(0.9, 0, 0, 30)
-    copyBtn.Position = UDim2.new(0.05, 0, 0, 120)
-    copyBtn.BackgroundColor3 = Color3.fromRGB(255, 60, 150)
-    copyBtn.Text = "Copy UserId to Clipboard"
-    copyBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-    copyBtn.Font = Enum.Font.GothamBold
-    copyBtn.TextSize = 11
-    copyBtn.Parent = mainFrame
+    local copyRobloxBtn = Instance.new("TextButton")
+    copyRobloxBtn.Size = UDim2.new(0.43, 0, 0, 32)
+    copyRobloxBtn.Position = UDim2.new(0.05, 0, 0, 125)
+    copyRobloxBtn.BackgroundColor3 = Color3.fromRGB(210, 40, 150)
+    copyRobloxBtn.Text = "Copy Roblox ID"
+    copyRobloxBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    copyRobloxBtn.Font = Enum.Font.GothamBold
+    copyRobloxBtn.TextSize = 11
+    copyRobloxBtn.Parent = mainFrame
     
-    local btnCorner = Instance.new("UICorner")
-    btnCorner.CornerRadius = UDim.new(0, 6)
-    btnCorner.Parent = copyBtn
+    local btnCorner1 = Instance.new("UICorner")
+    btnCorner1.CornerRadius = UDim.new(0, 6)
+    btnCorner1.Parent = copyRobloxBtn
     
-    copyBtn.MouseButton1Click:Connect(function()
+    -- Pink-purple gradient for Roblox button
+    local gradient1 = Instance.new("UIGradient")
+    gradient1.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(230, 40, 120)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(150, 30, 180))
+    })
+    gradient1.Parent = copyRobloxBtn
+    
+    local copyDiscordBtn = Instance.new("TextButton")
+    copyDiscordBtn.Size = UDim2.new(0.43, 0, 0, 32)
+    copyDiscordBtn.Position = UDim2.new(0.52, 0, 0, 125)
+    copyDiscordBtn.BackgroundColor3 = Color3.fromRGB(50, 80, 220)
+    copyDiscordBtn.Text = "Copy Discord"
+    copyDiscordBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    copyDiscordBtn.Font = Enum.Font.GothamBold
+    copyDiscordBtn.TextSize = 11
+    copyDiscordBtn.Parent = mainFrame
+    
+    local btnCorner2 = Instance.new("UICorner")
+    btnCorner2.CornerRadius = UDim.new(0, 6)
+    btnCorner2.Parent = copyDiscordBtn
+    
+    -- Blue-purple gradient for Discord button
+    local gradient2 = Instance.new("UIGradient")
+    gradient2.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(50, 100, 240)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(100, 40, 180))
+    })
+    gradient2.Parent = copyDiscordBtn
+    
+    local discordLink = Instance.new("TextLabel")
+    discordLink.Size = UDim2.new(1, 0, 0, 20)
+    discordLink.Position = UDim2.new(0, 0, 0, 168)
+    discordLink.BackgroundTransparency = 1
+    discordLink.Text = "discord.gg/XqWA5eswJk"
+    discordLink.TextColor3 = Color3.fromRGB(100, 100, 105)
+    discordLink.Font = Enum.Font.Gotham
+    discordLink.TextSize = 9
+    discordLink.Parent = mainFrame
+    
+    copyRobloxBtn.MouseButton1Click:Connect(function()
         if setclipboard then
             setclipboard(tostring(player.UserId))
-            copyBtn.Text = "Copied!"
-            task.wait(2)
-            copyBtn.Text = "Copy UserId to Clipboard"
-        else
-            copyBtn.Text = "Clipboard not supported!"
+            copyRobloxBtn.Text = "Copied!"
+            task.wait(1.5)
+            copyRobloxBtn.Text = "Copy Roblox ID"
         end
     end)
     
-    -- Block thread permanently
+    copyDiscordBtn.MouseButton1Click:Connect(function()
+        if setclipboard then
+            setclipboard("discord.gg/XqWA5eswJk")
+            copyDiscordBtn.Text = "Copied link!"
+            task.wait(1.5)
+            copyDiscordBtn.Text = "Copy Discord"
+        end
+    end)
+    
+    -- Block execution thread
     while true do
-        task.wait(1.0)
+        task.wait(1)
     end
 end
 
