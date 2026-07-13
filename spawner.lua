@@ -59,129 +59,181 @@ if not verified then
     screenGui.Parent = playerGui
     
     local mainFrame = Instance.new("Frame")
-    mainFrame.Size = UDim2.new(0, 360, 0, 200)
-    mainFrame.Position = UDim2.new(0.5, -180, 0.4, -100)
-    mainFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 17)
+    mainFrame.Size = UDim2.new(0, 340, 0, 220)
+    mainFrame.Position = UDim2.new(0.5, -170, 0.4, -110)
+    mainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     mainFrame.BorderSizePixel = 0
     mainFrame.Parent = screenGui
     
+    local bgGradient = Instance.new("UIGradient")
+    bgGradient.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(15, 15, 20)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(28, 18, 38))
+    })
+    bgGradient.Rotation = 45
+    bgGradient.Parent = mainFrame
+    
     local mainCorner = Instance.new("UICorner")
-    mainCorner.CornerRadius = UDim.new(0, 8)
+    mainCorner.CornerRadius = UDim.new(0, 10)
     mainCorner.Parent = mainFrame
     
     local stroke = Instance.new("UIStroke")
-    stroke.Thickness = 1.5
-    stroke.Color = Color3.fromRGB(255, 60, 150)
+    stroke.Thickness = 2
+    stroke.Color = Color3.fromRGB(255, 255, 255)
     stroke.Parent = mainFrame
     
-    local title = Instance.new("TextLabel")
-    title.Size = UDim2.new(1, 0, 0, 40)
-    title.BackgroundTransparency = 1
-    title.Text = "ACCESS DENIED"
-    title.TextColor3 = Color3.fromRGB(255, 60, 150)
-    title.Font = Enum.Font.GothamBold
-    title.TextSize = 14
-    title.Parent = mainFrame
+    local strokeGradient = Instance.new("UIGradient")
+    strokeGradient.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 60, 150)), -- Hot Pink
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(150, 50, 255))  -- Purple
+    })
+    strokeGradient.Rotation = 45
+    strokeGradient.Parent = stroke
     
-    local closeX = Instance.new("TextButton")
-    closeX.Size = UDim2.new(0, 20, 0, 20)
-    closeX.Position = UDim2.new(1, -25, 0, 10)
-    closeX.Text = "X"
-    closeX.TextColor3 = Color3.fromRGB(255, 60, 150)
-    closeX.BackgroundTransparency = 1
-    closeX.Font = Enum.Font.GothamBold
-    closeX.TextSize = 12
-    closeX.Parent = mainFrame
-    closeX.MouseButton1Click:Connect(function()
+    local closeBtn = Instance.new("TextButton")
+    closeBtn.Size = UDim2.new(0, 30, 0, 30)
+    closeBtn.Position = UDim2.new(1, -30, 0, 0)
+    closeBtn.BackgroundTransparency = 1
+    closeBtn.Text = "X"
+    closeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    closeBtn.Font = Enum.Font.GothamBold
+    closeBtn.TextSize = 14
+    closeBtn.Parent = mainFrame
+    
+    local closeGradient = Instance.new("UIGradient")
+    closeGradient.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 60, 150)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(150, 50, 255))
+    })
+    closeGradient.Parent = closeBtn
+    
+    closeBtn.MouseButton1Click:Connect(function()
         player:Kick("RoyaleStock.lol Whitelist Required")
     end)
     
+    local title = Instance.new("TextLabel")
+    title.Size = UDim2.new(1, 0, 0, 35)
+    title.BackgroundTransparency = 1
+    title.Text = "ACCESS DENIED"
+    title.TextColor3 = Color3.fromRGB(255, 255, 255)
+    title.Font = Enum.Font.GothamBold
+    title.TextSize = 13
+    title.Parent = mainFrame
+    
+    local titleGradient = Instance.new("UIGradient")
+    titleGradient.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 60, 150)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(200, 100, 255))
+    })
+    titleGradient.Parent = title
+    
     local desc = Instance.new("TextLabel")
-    desc.Size = UDim2.new(0.9, 0, 0, 80)
-    desc.Position = UDim2.new(0.05, 0, 0, 35)
+    desc.Size = UDim2.new(0.9, 0, 0, 85)
+    desc.Position = UDim2.new(0.05, 0, 0, 40)
     desc.BackgroundTransparency = 1
     desc.Text = "Your Roblox UserId is not whitelisted.\n\nUserId: " .. tostring(player.UserId) .. "\n\nCopy your ID and send it to RoyaleStock.lol to be whitelisted."
-    desc.TextColor3 = Color3.fromRGB(200, 200, 200)
+    desc.TextColor3 = Color3.fromRGB(200, 200, 210)
     desc.Font = Enum.Font.GothamSemibold
-    desc.TextSize = 11
+    desc.TextSize = 10
     desc.TextWrapped = true
     desc.Parent = mainFrame
     
-    local copyRobloxBtn = Instance.new("TextButton")
-    copyRobloxBtn.Size = UDim2.new(0.43, 0, 0, 32)
-    copyRobloxBtn.Position = UDim2.new(0.05, 0, 0, 125)
-    copyRobloxBtn.BackgroundColor3 = Color3.fromRGB(210, 40, 150)
-    copyRobloxBtn.Text = "Copy Roblox ID"
-    copyRobloxBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-    copyRobloxBtn.Font = Enum.Font.GothamBold
-    copyRobloxBtn.TextSize = 11
-    copyRobloxBtn.Parent = mainFrame
+    -- Action buttons row
+    local btnRow = Instance.new("Frame")
+    btnRow.Size = UDim2.new(0.9, 0, 0, 32)
+    btnRow.Position = UDim2.new(0.05, 0, 0, 135)
+    btnRow.BackgroundTransparency = 1
+    btnRow.Parent = mainFrame
     
-    local btnCorner1 = Instance.new("UICorner")
-    btnCorner1.CornerRadius = UDim.new(0, 6)
-    btnCorner1.Parent = copyRobloxBtn
+    local copyBtnBg = Instance.new("Frame")
+    copyBtnBg.Size = UDim2.new(0.48, 0, 1, 0)
+    copyBtnBg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    copyBtnBg.BorderSizePixel = 0
+    copyBtnBg.Parent = btnRow
     
-    -- Pink-purple gradient for Roblox button
-    local gradient1 = Instance.new("UIGradient")
-    gradient1.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(230, 40, 120)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(150, 30, 180))
+    local copyCorner = Instance.new("UICorner")
+    copyCorner.CornerRadius = UDim.new(0, 6)
+    copyCorner.Parent = copyBtnBg
+    
+    local copyGradient = Instance.new("UIGradient")
+    copyGradient.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 60, 150)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(180, 50, 255))
     })
-    gradient1.Parent = copyRobloxBtn
+    copyGradient.Parent = copyBtnBg
     
-    local copyDiscordBtn = Instance.new("TextButton")
-    copyDiscordBtn.Size = UDim2.new(0.43, 0, 0, 32)
-    copyDiscordBtn.Position = UDim2.new(0.52, 0, 0, 125)
-    copyDiscordBtn.BackgroundColor3 = Color3.fromRGB(50, 80, 220)
-    copyDiscordBtn.Text = "Copy Discord"
-    copyDiscordBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-    copyDiscordBtn.Font = Enum.Font.GothamBold
-    copyDiscordBtn.TextSize = 11
-    copyDiscordBtn.Parent = mainFrame
+    local copyBtn = Instance.new("TextButton")
+    copyBtn.Size = UDim2.new(1, 0, 1, 0)
+    copyBtn.BackgroundTransparency = 1
+    copyBtn.Text = "Copy Roblox ID"
+    copyBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    copyBtn.Font = Enum.Font.GothamBold
+    copyBtn.TextSize = 10
+    copyBtn.Parent = copyBtnBg
     
-    local btnCorner2 = Instance.new("UICorner")
-    btnCorner2.CornerRadius = UDim.new(0, 6)
-    btnCorner2.Parent = copyDiscordBtn
+    local discordBtnBg = Instance.new("Frame")
+    discordBtnBg.Size = UDim2.new(0.48, 0, 1, 0)
+    discordBtnBg.Position = UDim2.new(0.52, 0, 0, 0)
+    discordBtnBg.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    discordBtnBg.BorderSizePixel = 0
+    discordBtnBg.Parent = btnRow
     
-    -- Blue-purple gradient for Discord button
-    local gradient2 = Instance.new("UIGradient")
-    gradient2.Color = ColorSequence.new({
-        ColorSequenceKeypoint.new(0, Color3.fromRGB(50, 100, 240)),
-        ColorSequenceKeypoint.new(1, Color3.fromRGB(100, 40, 180))
+    local discordCorner = Instance.new("UICorner")
+    discordCorner.CornerRadius = UDim.new(0, 6)
+    discordCorner.Parent = discordBtnBg
+    
+    local discordGradient = Instance.new("UIGradient")
+    discordGradient.Color = ColorSequence.new({
+        ColorSequenceKeypoint.new(0, Color3.fromRGB(114, 137, 218)),
+        ColorSequenceKeypoint.new(1, Color3.fromRGB(88, 101, 242))
     })
-    gradient2.Parent = copyDiscordBtn
+    discordGradient.Parent = discordBtnBg
     
-    local discordLink = Instance.new("TextLabel")
-    discordLink.Size = UDim2.new(1, 0, 0, 20)
-    discordLink.Position = UDim2.new(0, 0, 0, 168)
-    discordLink.BackgroundTransparency = 1
-    discordLink.Text = "discord.gg/XqWA5eswJk"
-    discordLink.TextColor3 = Color3.fromRGB(100, 100, 105)
-    discordLink.Font = Enum.Font.Gotham
-    discordLink.TextSize = 9
-    discordLink.Parent = mainFrame
+    local discordBtn = Instance.new("TextButton")
+    discordBtn.Size = UDim2.new(1, 0, 1, 0)
+    discordBtn.BackgroundTransparency = 1
+    discordBtn.Text = "Copy Discord"
+    discordBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    discordBtn.Font = Enum.Font.GothamBold
+    discordBtn.TextSize = 10
+    discordBtn.Parent = discordBtnBg
     
-    copyRobloxBtn.MouseButton1Click:Connect(function()
+    -- Sub footer text for Discord link display
+    local footer = Instance.new("TextLabel")
+    footer.Size = UDim2.new(1, 0, 0, 20)
+    footer.Position = UDim2.new(0, 0, 0, 180)
+    footer.BackgroundTransparency = 1
+    footer.Text = "discord.gg/XqWA5eswJk"
+    footer.TextColor3 = Color3.fromRGB(120, 120, 140)
+    footer.Font = Enum.Font.Code
+    footer.TextSize = 9
+    footer.Parent = mainFrame
+    
+    copyBtn.MouseButton1Click:Connect(function()
         if setclipboard then
             setclipboard(tostring(player.UserId))
-            copyRobloxBtn.Text = "Copied!"
+            copyBtn.Text = "Copied ID!"
             task.wait(1.5)
-            copyRobloxBtn.Text = "Copy Roblox ID"
+            copyBtn.Text = "Copy Roblox ID"
+        else
+            copyBtn.Text = "No Clipboard!"
         end
     end)
     
-    copyDiscordBtn.MouseButton1Click:Connect(function()
+    discordBtn.MouseButton1Click:Connect(function()
         if setclipboard then
-            setclipboard("discord.gg/XqWA5eswJk")
-            copyDiscordBtn.Text = "Copied link!"
+            setclipboard("https://discord.gg/XqWA5eswJk")
+            discordBtn.Text = "Copied Link!"
             task.wait(1.5)
-            copyDiscordBtn.Text = "Copy Discord"
+            discordBtn.Text = "Copy Discord"
+        else
+            discordBtn.Text = "No Clipboard!"
         end
     end)
     
-    -- Block execution thread
+    -- Block thread permanently
     while true do
-        task.wait(1)
+        task.wait(1.0)
     end
 end
 
@@ -495,7 +547,13 @@ local function equipHalo3D(haloName)
         
         if validFile then
             pcall(function()
-                local assetId = getcustomasset(validFile)
+                local finalFile = validFile
+                if validFile:lower():match("%.rbxlx$") then
+                    finalFile = "temp_halo_model.rbxmx"
+                    local content = readfile(validFile)
+                    writefile(finalFile, content)
+                end
+                local assetId = getcustomasset(finalFile)
                 local objs = game:GetObjects(assetId)
                 if objs and objs[1] then
                     loadedModel = objs[1]
@@ -705,113 +763,121 @@ local function setStatusText(text)
     if bar then bar.Text = text end
 end
 
--- Top Bar Frame (Classic Layout - 480px width)
-local topBar = Instance.new("Frame")
-topBar.Size = UDim2.new(0, 480, 0, 50)
-topBar.Position = UDim2.new(0.5, -240, 0, 20)
-topBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-topBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
-topBar.BorderSizePixel = 1
-topBar.Active = true
-topBar.Parent = screenGui
-
--- Search Input (55% width)
-local searchBox = Instance.new("TextBox")
-searchBox.Size = UDim2.new(0.55, 0, 1, 0)
-searchBox.PlaceholderText = "Enter halo..."
-searchBox.Text = ""
-searchBox.TextColor3 = Color3.fromRGB(0, 0, 0)
-searchBox.PlaceholderColor3 = Color3.fromRGB(120, 120, 120)
-searchBox.BackgroundTransparency = 1
-searchBox.BorderSizePixel = 0
-searchBox.Font = Enum.Font.SourceSans
-searchBox.TextSize = 20
-searchBox.ClearTextOnFocus = false
-searchBox.TextXAlignment = Enum.TextXAlignment.Left
-local padding = Instance.new("UIPadding")
-padding.PaddingLeft = UDim.new(0, 10)
-padding.Parent = searchBox
-searchBox.Parent = topBar
-
--- Request Button (20% width)
-local reqBtn = Instance.new("TextButton")
-reqBtn.Size = UDim2.new(0.20, 0, 1, 0)
-reqBtn.Position = UDim2.new(0.55, 0, 0, 0)
-reqBtn.Text = "Request!"
-reqBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
-reqBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-reqBtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
-reqBtn.BorderSizePixel = 1
-reqBtn.Font = Enum.Font.SourceSans
-reqBtn.TextSize = 18
-reqBtn.Parent = topBar
-
--- Dragging bar logic bound to Request button
-local dragToggle = false
-local dragStart, startPos
-reqBtn.InputBegan:Connect(function(input)
-    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-        dragToggle = true
-        dragStart = input.Position
-        startPos = topBar.Position
-    end
-end)
-
-UserInputService.InputChanged:Connect(function(input)
-    if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) and dragToggle then
-        local delta = input.Position - dragStart
-        topBar.Position = UDim2.new(
-            startPos.X.Scale, startPos.X.Offset + delta.X,
-            startPos.Y.Scale, startPos.Y.Offset + delta.Y
-        )
-    end
-end)
-
-UserInputService.InputEnded:Connect(function(input)
-    if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-        dragToggle = false
-    end
-end)
-
--- Scan Server Button (25% width - Blue / Dodgers Blue)
-local scanBtn = Instance.new("TextButton")
-scanBtn.Size = UDim2.new(0.25, 0, 1, 0)
-scanBtn.Position = UDim2.new(0.75, 0, 0, 0)
-scanBtn.Text = "Scan Server!"
-scanBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-scanBtn.BackgroundColor3 = Color3.fromRGB(50, 150, 250)
-scanBtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
-scanBtn.BorderSizePixel = 1
-scanBtn.Font = Enum.Font.SourceSansBold
-scanBtn.TextSize = 18
-scanBtn.Parent = topBar
-
-
+    -- Top Bar Frame (Classic Layout - 480px width)
+    local topBar = Instance.new("Frame")
+    topBar.Name = "AntigravityMasterSuiteGui"
+    topBar.Size = UDim2.new(0, 480, 0, 50)
+    topBar.Position = UDim2.new(0.5, -240, 0, 20)
+    topBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    topBar.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    topBar.BorderSizePixel = 1
+    topBar.Active = true
+    topBar.Draggable = true
+    topBar.Parent = screenGui
+    
+    local textBox = Instance.new("TextBox")
+    textBox.Size = UDim2.new(0.55, 0, 1, 0)
+    textBox.Position = UDim2.new(0, 0, 0, 0)
+    textBox.PlaceholderText = "Enter halo name..."
+    textBox.Text = ""
+    textBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+    textBox.PlaceholderColor3 = Color3.fromRGB(120, 120, 120)
+    textBox.BackgroundTransparency = 1
+    textBox.BorderSizePixel = 0
+    textBox.Font = Enum.Font.SourceSans
+    textBox.TextSize = 20
+    textBox.ClearTextOnFocus = false
+    textBox.TextXAlignment = Enum.TextXAlignment.Left
+    
+    local padding = Instance.new("UIPadding")
+    padding.PaddingLeft = UDim.new(0, 12)
+    padding.Parent = textBox
+    textBox.Parent = topBar
+    
+    local reqBtn = Instance.new("TextButton")
+    reqBtn.Size = UDim2.new(0.20, 0, 1, 0)
+    reqBtn.Position = UDim2.new(0.55, 0, 0, 0)
+    reqBtn.Text = "Request!"
+    reqBtn.TextColor3 = Color3.fromRGB(0, 0, 0)
+    reqBtn.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    reqBtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    reqBtn.BorderSizePixel = 1
+    reqBtn.Font = Enum.Font.SourceSans
+    reqBtn.TextSize = 18
+    reqBtn.Parent = topBar
+    
+    local scanBtn = Instance.new("TextButton")
+    scanBtn.Size = UDim2.new(0.25, 0, 1, 0)
+    scanBtn.Position = UDim2.new(0.75, 0, 0, 0)
+    scanBtn.Text = "Scan Server!"
+    scanBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
+    scanBtn.BackgroundColor3 = Color3.fromRGB(50, 150, 250)
+    scanBtn.BorderColor3 = Color3.fromRGB(0, 0, 0)
+    scanBtn.BorderSizePixel = 1
+    scanBtn.Font = Enum.Font.SourceSansBold
+    scanBtn.TextSize = 16
+    scanBtn.Parent = topBar
 
 -- Red Close X Button (Top Right Y=-8)
 local closeX = Instance.new("TextButton")
-closeX.Size = UDim2.new(0, 15, 0, 15)
-closeX.Position = UDim2.new(1, -12, 0, -8)
-closeX.Text = "X"
-closeX.TextColor3 = Color3.fromRGB(200, 50, 50)
+closeX.Size = UDim2.new(0, 20, 0, 20)
+closeX.Position = UDim2.new(1, -22, 0, -22)
+closeX.Text = "✕"
+closeX.TextColor3 = Color3.fromRGB(255, 255, 255)
 closeX.BackgroundTransparency = 1
-closeX.Font = Enum.Font.SourceSansBold
-closeX.TextSize = 16
+closeX.Font = Enum.Font.GothamBold
+closeX.TextSize = 13
 closeX.Parent = topBar
 
--- Orange status bar
+local closeXGradient = Instance.new("UIGradient")
+closeXGradient.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 60, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(150, 50, 255))
+})
+closeXGradient.Parent = closeX
+
+-- Dark status bar below
 local statusBar = Instance.new("TextLabel")
 statusBar.Name = "StatusBar"
-statusBar.Size = UDim2.new(1, 0, 0, 20)
-statusBar.Position = UDim2.new(0, 0, 1, 0)
-statusBar.BackgroundColor3 = Color3.fromRGB(245, 245, 245)
-statusBar.BorderColor3 = Color3.fromRGB(200, 200, 200)
-statusBar.BorderSizePixel = 1
+statusBar.Size = UDim2.new(1, 0, 0, 22)
+statusBar.Position = UDim2.new(0, 0, 1, 4)
+statusBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+statusBar.BorderSizePixel = 0
 statusBar.Text = "Status: Ready..."
-statusBar.TextColor3 = Color3.fromRGB(210, 105, 30)
-statusBar.Font = Enum.Font.SourceSansItalic
-statusBar.TextSize = 15
+statusBar.TextColor3 = Color3.fromRGB(255, 255, 255)
+statusBar.Font = Enum.Font.GothamSemibold
+statusBar.TextSize = 10
 statusBar.Parent = topBar
+
+local statusBgGrad = Instance.new("UIGradient")
+statusBgGrad.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(15, 15, 20)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(28, 18, 38))
+})
+statusBgGrad.Parent = statusBar
+
+local statusStroke = Instance.new("UIStroke")
+statusStroke.Thickness = 1.2
+statusStroke.Color = Color3.fromRGB(255, 60, 150)
+statusStroke.Parent = statusBar
+
+local statusStrokeGrad = Instance.new("UIGradient")
+statusStrokeGrad.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 60, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(150, 50, 255))
+})
+statusStrokeGrad.Parent = statusStroke
+
+local statusCorner = Instance.new("UICorner")
+statusCorner.CornerRadius = UDim.new(0, 6)
+statusCorner.Parent = statusBar
+
+local statusTextGrad = Instance.new("UIGradient")
+statusTextGrad.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 140, 0)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 60, 150))
+})
+statusTextGrad.Parent = statusBar
 
 closeX.MouseButton1Click:Connect(function()
     clearClientHalo()
@@ -823,22 +889,53 @@ local custFrame = Instance.new("Frame")
 custFrame.Name = "CustomizerPanel"
 custFrame.Size = UDim2.new(0, 260, 0, 340)
 custFrame.Position = UDim2.new(0.5, -130, 0.5, -170)
-custFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-custFrame.BorderColor3 = Color3.fromRGB(50, 50, 50)
-custFrame.BorderSizePixel = 2
+custFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+custFrame.BorderSizePixel = 0
 custFrame.Active = true
 custFrame.Draggable = true
 custFrame.Visible = false
 custFrame.Parent = screenGui
 
+local custBgGradient = Instance.new("UIGradient")
+custBgGradient.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(15, 15, 20)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(28, 18, 38))
+})
+custBgGradient.Rotation = 45
+custBgGradient.Parent = custFrame
+
+local custCorner = Instance.new("UICorner")
+custCorner.CornerRadius = UDim.new(0, 10)
+custCorner.Parent = custFrame
+
+local custStroke = Instance.new("UIStroke")
+custStroke.Thickness = 1.5
+custStroke.Color = Color3.fromRGB(255, 255, 255)
+custStroke.Parent = custFrame
+
+local custStrokeGradient = Instance.new("UIGradient")
+custStrokeGradient.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 60, 150)), -- Hot Pink
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(150, 50, 255))  -- Purple
+})
+custStrokeGradient.Rotation = 45
+custStrokeGradient.Parent = custStroke
+
 local titleLabel = Instance.new("TextLabel")
 titleLabel.Size = UDim2.new(1, 0, 0, 30)
-titleLabel.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+titleLabel.BackgroundTransparency = 1
 titleLabel.Text = "Halo Customizer Panel"
 titleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-titleLabel.Font = Enum.Font.SourceSansBold
-titleLabel.TextSize = 16
+titleLabel.Font = Enum.Font.GothamBold
+titleLabel.TextSize = 13
 titleLabel.Parent = custFrame
+
+local titleLabelGrad = Instance.new("UIGradient")
+titleLabelGrad.Color = ColorSequence.new({
+    ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 60, 150)),
+    ColorSequenceKeypoint.new(1, Color3.fromRGB(200, 100, 255))
+})
+titleLabelGrad.Parent = titleLabel
 
 -- Height controls
 local heightFrame = Instance.new("Frame")
@@ -852,8 +949,8 @@ heightLabel.Size = UDim2.new(0.4, 0, 1, 0)
 heightLabel.Text = "Height: 0.0"
 heightLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 heightLabel.BackgroundTransparency = 1
-heightLabel.Font = Enum.Font.SourceSans
-heightLabel.TextSize = 16
+heightLabel.Font = Enum.Font.GothamSemibold
+heightLabel.TextSize = 13
 heightLabel.Parent = heightFrame
 
 local heightMinus = Instance.new("TextButton")
@@ -862,6 +959,8 @@ heightMinus.Position = UDim2.new(0.45, 0, 0.1, 0)
 heightMinus.Text = "-"
 heightMinus.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 heightMinus.TextColor3 = Color3.fromRGB(255, 255, 255)
+heightMinus.Font = Enum.Font.GothamBold
+heightMinus.TextSize = 14
 heightMinus.Parent = heightFrame
 
 local heightPlus = Instance.new("TextButton")
@@ -870,6 +969,8 @@ heightPlus.Position = UDim2.new(0.75, 0, 0.1, 0)
 heightPlus.Text = "+"
 heightPlus.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 heightPlus.TextColor3 = Color3.fromRGB(255, 255, 255)
+heightPlus.Font = Enum.Font.GothamBold
+heightPlus.TextSize = 14
 heightPlus.Parent = heightFrame
 
 heightMinus.MouseButton1Click:Connect(function()
@@ -894,8 +995,8 @@ scaleLabel.Size = UDim2.new(0.4, 0, 1, 0)
 scaleLabel.Text = "Scale: 1.00x"
 scaleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 scaleLabel.BackgroundTransparency = 1
-scaleLabel.Font = Enum.Font.SourceSans
-scaleLabel.TextSize = 16
+scaleLabel.Font = Enum.Font.GothamSemibold
+scaleLabel.TextSize = 13
 scaleLabel.Parent = scaleFrame
 
 local scaleMinus = Instance.new("TextButton")
@@ -904,6 +1005,8 @@ scaleMinus.Position = UDim2.new(0.45, 0, 0.1, 0)
 scaleMinus.Text = "-"
 scaleMinus.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 scaleMinus.TextColor3 = Color3.fromRGB(255, 255, 255)
+scaleMinus.Font = Enum.Font.GothamBold
+scaleMinus.TextSize = 14
 scaleMinus.Parent = scaleFrame
 
 local scalePlus = Instance.new("TextButton")
@@ -912,6 +1015,8 @@ scalePlus.Position = UDim2.new(0.75, 0, 0.1, 0)
 scalePlus.Text = "+"
 scalePlus.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 scalePlus.TextColor3 = Color3.fromRGB(255, 255, 255)
+scalePlus.Font = Enum.Font.GothamBold
+scalePlus.TextSize = 14
 scalePlus.Parent = scaleFrame
 
 scaleMinus.MouseButton1Click:Connect(function()
@@ -1049,8 +1154,8 @@ updateCustomizerPartList = function()
         pBtn.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
         pBtn.TextColor3 = Color3.fromRGB(240, 240, 240)
         pBtn.Text = "  " .. pName
-        pBtn.Font = Enum.Font.SourceSans
-        pBtn.TextSize = 14
+        pBtn.Font = Enum.Font.GothamSemibold
+        pBtn.TextSize = 12
         pBtn.TextXAlignment = Enum.TextXAlignment.Left
         pBtn.Parent = partListScroll
         
@@ -1104,6 +1209,7 @@ scanBtn.MouseButton1Click:Connect(function()
     scanServerForHaloModels(setStatusText)
 end)
 
+-- Library toggle customizer
 
 
 -- Keybind Toggle
