@@ -1,0 +1,3861 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Meta name="ExplicitColors">true</Meta>
+<Item class="Model" referent="RBX1528">
+<Properties>
+<string name="Name">Mermaid Halo 2022</string>
+<Ref name="PrimaryPart">RBX1529</Ref>
+</Properties>
+<Item class="Folder" referent="RBX1530">
+<Properties>
+<string name="Name">Waterswirl effect</string>
+</Properties>
+<Item class="StringValue" referent="RBX1531">
+<Properties>
+<string name="Name">LayoutOrder</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="MeshPart" referent="RBX1532">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.748199462891</X>
+<Y>109.377960205078</Y>
+<Z>270.396911621094</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112387657</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998485922813</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300918207</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="CastShadow">false</bool>
+<Color3 name="Color">
+<R>1.000000000000</R>
+<G>1.000000000000</G>
+<B>1.000000000000</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://9718717260</url></Content>
+<string name="Name">4</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.322424769402</X>
+<Y>0.001089251600</Y>
+<Z>1.302957892418</Z>
+</Vector3>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001023735</X>
+<Y>0.000207684614</Y>
+<Z>-0.000005159183</Z>
+</Vector3>
+</Properties>
+<Item class="StringValue" referent="RBX1533">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1534">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX1535">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.017065787688</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1536">
+<Properties>
+<float name="Brightness">0.200000002980</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<NumberRange name="Lifetime">3 3 </NumberRange>
+<float name="LightEmission">0.800000011921</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">3</token>
+<float name="Rate">2.000000000000</float>
+<NumberRange name="RotSpeed">180 180 </NumberRange>
+<token name="ShapeInOut">1</token>
+<float name="ShapePartial">0.000000000000</float>
+<token name="ShapeStyle">1</token>
+<NumberSequence name="Size">0 0.68 0 1 0.68 0 </NumberSequence>
+<NumberRange name="Speed">0.001 0.001 </NumberRange>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9744422795</url></Content>
+<NumberSequence name="Transparency">0 1 0 0.5 0 0 1 1 0 </NumberSequence>
+</Properties>
+<Item class="StringValue" referent="RBX1537">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX1538">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="ParticleEmitter" referent="RBX1539">
+<Properties>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<NumberRange name="Lifetime">12 12 </NumberRange>
+<float name="LightEmission">0.800000011921</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">5.000000000000</float>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<token name="Shape">3</token>
+<token name="ShapeInOut">2</token>
+<float name="ShapePartial">0.000000000000</float>
+<token name="ShapeStyle">1</token>
+<NumberSequence name="Size">0 0 0 0.5 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>5.000000000000</X>
+<Y>5.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>rbxasset://textures/particles/smoke_main.dds</url></Content>
+</Properties>
+<Item class="StringValue" referent="RBX1540">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Weld" referent="RBX1541">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.011566162109</X>
+<Y>0.939342498779</Y>
+<Z>-0.008239746094</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1532</Ref>
+<Ref name="Part1">RBX1542</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1543">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Folder" referent="RBX1544">
+<Properties>
+<string name="Name">Configuration</string>
+</Properties>
+<Item class="Folder" referent="RBX1545">
+<Properties>
+<string name="Name">Colors</string>
+</Properties>
+<Item class="StringValue" referent="RBX1546">
+<Properties>
+<string name="Name">MultiColor4</string>
+<string name="Value">Color3:1.000,1.000,1.000</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1547">
+<Properties>
+<string name="Name">MultiColor2</string>
+<string name="Value">Color3:1.000,1.000,1.000</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1548">
+<Properties>
+<string name="Name">MultiColor3</string>
+<string name="Value">Color3:0.820,0.310,0.643</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1549">
+<Properties>
+<string name="Name">MultiColor1</string>
+<string name="Value">Color3:0.820,0.310,0.643</string>
+</Properties>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX1550">
+<Properties>
+<string name="Name">AssetId</string>
+<string name="Value">Mermaid Halo 2022</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1551">
+<Properties>
+<string name="Name">ToggleIndex</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1552">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.754394531250</X>
+<Y>109.455101013184</Y>
+<Z>270.409210205078</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112387657</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998485922813</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300918207</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>1.000000000000</R>
+<G>1.000000000000</G>
+<B>1.000000000000</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.152218103409</X>
+<Y>0.332651138306</Y>
+<Z>1.132858991623</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://9718720057</url></Content>
+<string name="Name">2</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.504374504089</X>
+<Y>0.434320449829</Y>
+<Z>1.479098677635</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001061970</X>
+<Y>0.000207712263</Y>
+<Z>-0.000005351873</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1553">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.011581420898</X>
+<Y>1.015865325928</Y>
+<Z>0.008636474609</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1552</Ref>
+<Ref name="Part1">RBX1542</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1554">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.738006591797</X>
+<Y>109.478286743164</Y>
+<Z>270.389129638672</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112387657</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998485922813</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300918207</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="CastShadow">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.233802080154</X>
+<Y>0.590951919556</Y>
+<Z>1.210551977158</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">1568</token>
+<Content name="MeshId"><url>rbxassetid://9718720589</url></Content>
+<string name="Name">3</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<float name="Reflectance">0.200000002980</float>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.610893368721</X>
+<Y>0.771566629410</Y>
+<Z>1.580537199974</Z>
+</Vector3>
+<float name="Transparency">0.250000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001073462</X>
+<Y>0.000207670222</Y>
+<Z>-0.000005409789</Z>
+</Vector3>
+</Properties>
+<Item class="Folder" referent="RBX1555">
+<Properties>
+<string name="Name">Waterdrop Sparkles</string>
+</Properties>
+<Item class="Attachment" referent="RBX1556">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.715361177921</X>
+<Y>-0.297500908375</Y>
+<Z>0.131365492940</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">drop sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1557">
+<Properties>
+<Vector3 name="Acceleration">
+<X>0.000000000000</X>
+<Y>-1.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<float name="Drag">-5.000000000000</float>
+<token name="EmissionDirection">0</token>
+<NumberRange name="Lifetime">1 2 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">1</token>
+<float name="Rate">0.250000000000</float>
+<NumberSequence name="Size">0 0 0 0.0195 0.06 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<NumberSequence name="Squash">0 0.1 0 1 0.1 0 </NumberSequence>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9719901200</url></Content>
+<float name="TimeScale">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1558">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1559">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.614278674126</X>
+<Y>-0.297500908375</Y>
+<Z>-0.344388008118</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">drop sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1560">
+<Properties>
+<Vector3 name="Acceleration">
+<X>0.000000000000</X>
+<Y>-1.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<float name="Drag">-5.000000000000</float>
+<token name="EmissionDirection">0</token>
+<NumberRange name="Lifetime">1 2 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">1</token>
+<float name="Rate">0.250000000000</float>
+<NumberSequence name="Size">0 0 0 0.0195 0.06 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<NumberSequence name="Squash">0 0.1 0 1 0.1 0 </NumberSequence>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9719901200</url></Content>
+<float name="TimeScale">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1561">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1562">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.001373279374</X>
+<Y>-0.297500908375</Y>
+<Z>0.731559157372</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">drop sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1563">
+<Properties>
+<Vector3 name="Acceleration">
+<X>0.000000000000</X>
+<Y>-1.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<float name="Drag">-5.000000000000</float>
+<token name="EmissionDirection">0</token>
+<NumberRange name="Lifetime">1 2 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">1</token>
+<float name="Rate">0.250000000000</float>
+<NumberSequence name="Size">0 0 0 0.0195 0.06 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<NumberSequence name="Squash">0 0.1 0 1 0.1 0 </NumberSequence>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9719901200</url></Content>
+<float name="TimeScale">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1564">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1565">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.238291501999</X>
+<Y>-0.297500908375</Y>
+<Z>-0.655685007572</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">drop sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1566">
+<Properties>
+<Vector3 name="Acceleration">
+<X>0.000000000000</X>
+<Y>-1.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<float name="Drag">-5.000000000000</float>
+<token name="EmissionDirection">0</token>
+<NumberRange name="Lifetime">1 2 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">1</token>
+<float name="Rate">0.250000000000</float>
+<NumberSequence name="Size">0 0 0 0.0195 0.06 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<NumberSequence name="Squash">0 0.1 0 1 0.1 0 </NumberSequence>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9719901200</url></Content>
+<float name="TimeScale">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1567">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1568">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.467711746693</X>
+<Y>-0.297500908375</Y>
+<Z>0.574280679226</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">drop sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1569">
+<Properties>
+<Vector3 name="Acceleration">
+<X>0.000000000000</X>
+<Y>-1.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<float name="Drag">-5.000000000000</float>
+<token name="EmissionDirection">0</token>
+<NumberRange name="Lifetime">1 2 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">1</token>
+<float name="Rate">0.250000000000</float>
+<NumberSequence name="Size">0 0 0 0.0195 0.06 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<NumberSequence name="Squash">0 0.1 0 1 0.1 0 </NumberSequence>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9719901200</url></Content>
+<float name="TimeScale">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1570">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1571">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.715968906879</X>
+<Y>-0.297500908375</Y>
+<Z>0.142910957336</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">drop sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1572">
+<Properties>
+<Vector3 name="Acceleration">
+<X>0.000000000000</X>
+<Y>-1.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<float name="Drag">-5.000000000000</float>
+<token name="EmissionDirection">0</token>
+<NumberRange name="Lifetime">1 2 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">1</token>
+<float name="Rate">0.250000000000</float>
+<NumberSequence name="Size">0 0 0 0.0195 0.06 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<NumberSequence name="Squash">0 0.1 0 1 0.1 0 </NumberSequence>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9719901200</url></Content>
+<float name="TimeScale">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1573">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1574">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.617004454136</X>
+<Y>-0.297500908375</Y>
+<Z>-0.344388008118</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">drop sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1575">
+<Properties>
+<Vector3 name="Acceleration">
+<X>0.000000000000</X>
+<Y>-1.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<float name="Drag">-5.000000000000</float>
+<token name="EmissionDirection">0</token>
+<NumberRange name="Lifetime">1 2 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">1</token>
+<float name="Rate">0.250000000000</float>
+<NumberSequence name="Size">0 0 0 0.0195 0.06 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<NumberSequence name="Squash">0 0.1 0 1 0.1 0 </NumberSequence>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9719901200</url></Content>
+<float name="TimeScale">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1576">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1577">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.717901527882</X>
+<Y>-0.297500908375</Y>
+<Z>0.142910957336</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">drop sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1578">
+<Properties>
+<Vector3 name="Acceleration">
+<X>0.000000000000</X>
+<Y>-1.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<float name="Drag">-5.000000000000</float>
+<token name="EmissionDirection">0</token>
+<NumberRange name="Lifetime">1 2 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">1</token>
+<float name="Rate">0.250000000000</float>
+<NumberSequence name="Size">0 0 0 0.0195 0.06 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<NumberSequence name="Squash">0 0.1 0 1 0.1 0 </NumberSequence>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9719901200</url></Content>
+<float name="TimeScale">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1579">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX1580">
+<Properties>
+<string name="Name">LayoutOrder</string>
+<string name="Value">5</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX1581">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.238822847605</X>
+<Y>-0.297500908375</Y>
+<Z>-0.655685007572</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">drop sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1582">
+<Properties>
+<Vector3 name="Acceleration">
+<X>0.000000000000</X>
+<Y>-1.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<float name="Drag">-5.000000000000</float>
+<token name="EmissionDirection">0</token>
+<NumberRange name="Lifetime">1 2 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">1</token>
+<float name="Rate">0.250000000000</float>
+<NumberSequence name="Size">0 0 0 0.0195 0.06 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<NumberSequence name="Squash">0 0.1 0 1 0.1 0 </NumberSequence>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9719901200</url></Content>
+<float name="TimeScale">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1583">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1584">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.471252977848</X>
+<Y>-0.297500908375</Y>
+<Z>0.574280679226</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">drop sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1585">
+<Properties>
+<Vector3 name="Acceleration">
+<X>0.000000000000</X>
+<Y>-1.000000000000</Y>
+<Z>0.000000000000</Z>
+</Vector3>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<float name="Drag">-5.000000000000</float>
+<token name="EmissionDirection">0</token>
+<NumberRange name="Lifetime">1 2 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<token name="Orientation">1</token>
+<float name="Rate">0.250000000000</float>
+<NumberSequence name="Size">0 0 0 0.0195 0.06 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<NumberSequence name="Squash">0 0.1 0 1 0.1 0 </NumberSequence>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=9719901200</url></Content>
+<float name="TimeScale">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1586">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+</Item>
+<Item class="Folder" referent="RBX1587">
+<Properties>
+<string name="Name">Seashell Sparkles</string>
+</Properties>
+<Item class="Attachment" referent="RBX1588">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.238291501999</X>
+<Y>0.307717382908</Y>
+<Z>-0.655685007572</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">tip sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1589">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">1.5 3 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1590">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1591">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.238822847605</X>
+<Y>0.307717382908</Y>
+<Z>-0.655685007572</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">tip sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1592">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">1.5 3 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1593">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1594">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.471252977848</X>
+<Y>0.260897099972</Y>
+<Z>0.574280679226</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">tip sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1595">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">1.5 3 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1596">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1597">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.715968906879</X>
+<Y>0.187938258052</Y>
+<Z>0.142910957336</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">tip sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1598">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">1.5 3 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1599">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX1600">
+<Properties>
+<string name="Name">LayoutOrder</string>
+<string name="Value">4</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX1601">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.614278674126</X>
+<Y>0.260897099972</Y>
+<Z>-0.344388008118</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">tip sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1602">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">1.5 3 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1603">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1604">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.467711746693</X>
+<Y>0.187938258052</Y>
+<Z>0.574280679226</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">tip sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1605">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">1.5 3 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1606">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1607">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.717901527882</X>
+<Y>0.260897099972</Y>
+<Z>0.142910957336</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">tip sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1608">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">1.5 3 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1609">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1610">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.001373279374</X>
+<Y>0.187938258052</Y>
+<Z>0.731559157372</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">tip sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1611">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">1.5 3 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1612">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1613">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.715361177921</X>
+<Y>0.187938258052</Y>
+<Z>0.131365492940</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">tip sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1614">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">1.5 3 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1615">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1616">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.617004454136</X>
+<Y>0.187938258052</Y>
+<Z>-0.344388008118</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">tip sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1617">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">1.5 3 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1618">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+</Item>
+<Item class="Weld" referent="RBX1619">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.011566162109</X>
+<Y>1.040172576904</Y>
+<Z>-0.016235351562</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1554</Ref>
+<Ref name="Part1">RBX1542</Ref>
+</Properties>
+</Item>
+<Item class="Folder" referent="RBX1620">
+<Properties>
+<string name="Name">Gem Sparkles</string>
+</Properties>
+<Item class="Attachment" referent="RBX1621">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.273420751095</X>
+<Y>-0.021323744208</Y>
+<Z>0.776277959347</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1622">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1623">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1624">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.797403216362</X>
+<Y>-0.021323744208</Y>
+<Z>0.149787932634</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1625">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1626">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1627">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.269766807556</X>
+<Y>-0.021323744208</Y>
+<Z>0.776277959347</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1628">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1629">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1630">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.505968272686</X>
+<Y>-0.068693049252</Y>
+<Z>-0.612104833126</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1631">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1632">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1633">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.709390223026</X>
+<Y>-0.021323744208</Y>
+<Z>0.422515720129</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1634">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1635">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1636">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.000000000000</X>
+<Y>-0.068693049252</Y>
+<Z>-0.791924655437</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1637">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1638">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1639">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.520118653774</X>
+<Y>-0.068693049252</Y>
+<Z>-0.612104833126</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1640">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1641">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1642">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.508714318275</X>
+<Y>0.249553516507</Y>
+<Z>-0.606033802032</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1643">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.25 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1644">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1645">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.511917412281</X>
+<Y>0.249553516507</Y>
+<Z>-0.606033802032</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1646">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.25 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1647">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1648">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.803462982178</X>
+<Y>-0.021323744208</Y>
+<Z>-0.122603870928</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1649">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1650">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1651">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.808408677578</X>
+<Y>-0.021323744208</Y>
+<Z>-0.122603870928</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1652">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1653">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1654">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.711413800716</X>
+<Y>-0.021323744208</Y>
+<Z>0.426069200039</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1655">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.2 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1656">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1657">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.000000000000</X>
+<Y>0.326412469149</Y>
+<Z>-0.791924655437</Z>
+<R00>0.496673762798</R00>
+<R01>-0.000117978452</R01>
+<R02>0.867937266827</R02>
+<R10>0.000031369789</R10>
+<R11>1.000000000000</R11>
+<R12>0.000117978452</R12>
+<R20>-0.867937266827</R20>
+<R21>-0.000031369789</R21>
+<R22>0.496673762798</R22>
+</CoordinateFrame>
+<string name="Name">sparkle</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1658">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 0.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">3</string>
+<float name="Rate">0.250000000000</float>
+<NumberRange name="Rotation">45 45 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.3 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1659">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX1660">
+<Properties>
+<string name="Name">LayoutOrder</string>
+<string name="Value">3</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1661">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.750427246094</X>
+<Y>109.701957702637</Y>
+<Z>270.417663574219</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112387657</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998485922813</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300918207</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="CastShadow">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.136630058289</X>
+<Y>0.132062911987</Y>
+<Z>1.102582931519</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">1072</token>
+<Content name="MeshId"><url>rbxassetid://9718720955</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.484022259712</X>
+<Y>0.172425761819</Y>
+<Z>1.439569234848</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001184326</X>
+<Y>0.000207735342</Y>
+<Z>-0.000005968495</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1662">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.011573791504</X>
+<Y>1.262439727783</Y>
+<Z>0.023712158203</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1661</Ref>
+<Ref name="Part1">RBX1542</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX1542">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-406.793914794922</X>
+<Y>108.440010070801</Y>
+<Z>270.423919677734</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112391382</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998485982418</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300919138</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="CastShadow">false</bool>
+<int name="CollisionGroupId">1</int>
+<Color3 name="Color">
+<R>0.917647063732</R>
+<G>0.721568644047</G>
+<B>0.572549045086</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<string name="Name">StationaryHaloBase</string>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.899999976158</X>
+<Y>0.949999988079</Y>
+<Z>0.949999988079</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000000558834</X>
+<Y>0.000207729419</Y>
+<Z>-0.000002816284</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="MeshPart" referent="RBX1663">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.737274169922</X>
+<Y>109.583328247070</Y>
+<Z>270.393951416016</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112387657</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998485922813</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300918207</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="CastShadow">false</bool>
+<Color3 name="Color">
+<R>1.000000000000</R>
+<G>1.000000000000</G>
+<B>1.000000000000</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.260763883591</X>
+<Y>0.540407180786</Y>
+<Z>1.243387937546</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://9718717260</url></Content>
+<string name="Name">4</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<float name="Reflectance">0.300000011921</float>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.646095514297</X>
+<Y>0.705573678017</Y>
+<Z>1.623408913612</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001125527</X>
+<Y>0.000207682635</Y>
+<Z>-0.000005672171</Z>
+</Vector3>
+</Properties>
+<Item class="Folder" referent="RBX1664">
+<Properties>
+<string name="Name">Pearl shine</string>
+</Properties>
+<Item class="Attachment" referent="RBX1665">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.782052516937</X>
+<Y>-0.253140956163</Y>
+<Z>-0.127862840891</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">pearls</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1666">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<NumberRange name="Lifetime">2 3.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">4</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.101 0.1 0 0.20092 0 0 0.299 0.05 0 0.398773 0 0 0.5 0.1 0 0.604294 0 0 0.699 0.05 0 0.800613 0 0 0.899 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0.1 0.1 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1667">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1668">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.688941121101</X>
+<Y>-0.253140956163</Y>
+<Z>0.418238729239</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">pearls</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1669">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<NumberRange name="Lifetime">2 3.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">4</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.101 0.1 0 0.20092 0 0 0.299 0.05 0 0.398773 0 0 0.5 0.1 0 0.604294 0 0 0.699 0.05 0 0.800613 0 0 0.899 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0.1 0.1 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1670">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1671">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.698515117168</X>
+<Y>-0.253140956163</Y>
+<Z>0.418238729239</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">pearls</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1672">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<NumberRange name="Lifetime">2 3.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">4</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.101 0.1 0 0.20092 0 0 0.299 0.05 0 0.398773 0 0 0.5 0.1 0 0.604294 0 0 0.699 0.05 0 0.800613 0 0 0.899 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0.1 0.1 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1673">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1674">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.785892367363</X>
+<Y>-0.253140956163</Y>
+<Z>-0.127862840891</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">pearls</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1675">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<NumberRange name="Lifetime">2 3.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">4</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.101 0.1 0 0.20092 0 0 0.299 0.05 0 0.398773 0 0 0.5 0.1 0 0.604294 0 0 0.699 0.05 0 0.800613 0 0 0.899 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0.1 0.1 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1676">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1677">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.002027716720</X>
+<Y>-0.253140956163</Y>
+<Z>-0.776127696037</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">pearls</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1678">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<NumberRange name="Lifetime">2 3.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">4</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.101 0.1 0 0.20092 0 0 0.299 0.05 0 0.398773 0 0 0.5 0.1 0 0.604294 0 0 0.699 0.05 0 0.800613 0 0 0.899 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0.1 0.1 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1679">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1680">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.253591299057</X>
+<Y>-0.253140956163</Y>
+<Z>0.758331298828</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">pearls</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1681">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<NumberRange name="Lifetime">2 3.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">4</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.101 0.1 0 0.20092 0 0 0.299 0.05 0 0.398773 0 0 0.5 0.1 0 0.604294 0 0 0.699 0.05 0 0.800613 0 0 0.899 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0.1 0.1 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1682">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1683">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.255195200443</X>
+<Y>-0.253140956163</Y>
+<Z>0.758331298828</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">pearls</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1684">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<NumberRange name="Lifetime">2 3.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">4</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.101 0.1 0 0.20092 0 0 0.299 0.05 0 0.398773 0 0 0.5 0.1 0 0.604294 0 0 0.699 0.05 0 0.800613 0 0 0.899 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0.1 0.1 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1685">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1686">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.503359854221</X>
+<Y>-0.253140956163</Y>
+<Z>-0.588578164577</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">pearls</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1687">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<NumberRange name="Lifetime">2 3.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">4</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.101 0.1 0 0.20092 0 0 0.299 0.05 0 0.398773 0 0 0.5 0.1 0 0.604294 0 0 0.699 0.05 0 0.800613 0 0 0.899 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0.1 0.1 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1688">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1689">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.497305303812</X>
+<Y>-0.253140956163</Y>
+<Z>-0.588578164577</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">pearls</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1690">
+<Properties>
+<float name="Brightness">3.000000000000</float>
+<NumberRange name="Lifetime">2 3.5 </NumberRange>
+<float name="LightEmission">0.500000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">4</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.101 0.1 0 0.20092 0 0 0.299 0.05 0 0.398773 0 0 0.5 0.1 0 0.604294 0 0 0.699 0.05 0 0.800613 0 0 0.899 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0.1 0.1 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1691">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX1692">
+<Properties>
+<string name="Name">LayoutOrder</string>
+<string name="Value">6</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Weld" referent="RBX1693">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.011581420898</X>
+<Y>1.145023345947</Y>
+<Z>-0.008270263672</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1663</Ref>
+<Ref name="Part1">RBX1542</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX1529">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-406.794067382812</X>
+<Y>108.436706542969</Y>
+<Z>270.423980712891</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112395108</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300920069</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="CastShadow">false</bool>
+<int name="CollisionGroupId">1</int>
+<Color3 name="Color">
+<R>0.917647063732</R>
+<G>0.721568644047</G>
+<B>0.572549045086</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<string name="Name">Head</string>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.899999976158</X>
+<Y>0.949999988079</Y>
+<Z>0.949999988079</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000000557197</X>
+<Y>0.000207729492</Y>
+<Z>-0.000002808032</Z>
+</Vector3>
+</Properties>
+<Item class="WeldConstraint" referent="RBX1694">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.011596679688</X>
+<Y>-1.015884399414</Y>
+<Z>-0.008636474609</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.011596679688</X>
+<Y>1.015884399414</Y>
+<Z>0.008636474609</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1552</Ref>
+<Ref name="Part1Internal">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1695">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.011787414551</X>
+<Y>-1.096569061279</Y>
+<Z>0.790283203125</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.011787414551</X>
+<Y>1.096569061279</Y>
+<Z>-0.790283203125</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1696</Ref>
+<Ref name="Part1Internal">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1697">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.011589050293</X>
+<Y>-0.952159881592</Y>
+<Z>-0.271972656250</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.011589050293</X>
+<Y>0.952159881592</Y>
+<Z>0.271972656250</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1698</Ref>
+<Ref name="Part1Internal">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1699">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.011611938477</X>
+<Y>-1.145030975342</Y>
+<Z>0.008239746094</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.011611938477</X>
+<Y>1.145030975342</Y>
+<Z>-0.008239746094</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1663</Ref>
+<Ref name="Part1Internal">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1700">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.003292191774</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.000015258789</X>
+<Y>-0.000015258789</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1529</Ref>
+<Ref name="Part1">RBX1542</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1701">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.011589050293</X>
+<Y>-1.040172576904</Y>
+<Z>0.596282958984</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.011589050293</X>
+<Y>1.040172576904</Y>
+<Z>-0.596282958984</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1702</Ref>
+<Ref name="Part1Internal">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1703">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.011581420898</X>
+<Y>-1.040176391602</Y>
+<Z>0.016204833984</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.011581420898</X>
+<Y>1.040176391602</Y>
+<Z>-0.016204833984</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1554</Ref>
+<Ref name="Part1Internal">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1704">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1542</Ref>
+<Ref name="Part1Internal">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1705">
+<Properties>
+<string name="Name">AnchorWeld</string>
+<Ref name="Part0">RBX91</Ref>
+<Ref name="Part1">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1706">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.011611938477</X>
+<Y>-1.262458801270</Y>
+<Z>-0.023712158203</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.011611938477</X>
+<Y>1.262458801270</Y>
+<Z>0.023712158203</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1661</Ref>
+<Ref name="Part1Internal">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1707">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.011589050293</X>
+<Y>-1.414806365967</Y>
+<Z>0.010345458984</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.011589050293</X>
+<Y>1.414806365967</Y>
+<Z>-0.010345458984</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1708</Ref>
+<Ref name="Part1Internal">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1709">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.011581420898</X>
+<Y>-0.939346313477</Y>
+<Z>0.008239746094</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.011581420898</X>
+<Y>0.939346313477</Y>
+<Z>-0.008239746094</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1532</Ref>
+<Ref name="Part1Internal">RBX1529</Ref>
+</Properties>
+</Item>
+<Item class="Script" referent="RBX1710">
+<Properties>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1696">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.265655517578</X>
+<Y>109.500808715820</Y>
+<Z>269.773681640625</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112387657</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998485922813</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300918207</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="CastShadow">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>0.242291003466</X>
+<Y>0.680444717407</Y>
+<Z>0.023916959763</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">1072</token>
+<Content name="MeshId"><url>rbxassetid://9718714318</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.316343247890</X>
+<Y>0.888411343098</Y>
+<Z>0.031226782128</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001084625</X>
+<Y>0.000206367025</Y>
+<Z>-0.000005466046</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1711">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.011787414551</X>
+<Y>1.096546173096</Y>
+<Z>-0.790313720703</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1696</Ref>
+<Ref name="Part1">RBX1542</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1698">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.917480468750</X>
+<Y>109.402969360352</Y>
+<Z>270.619140625000</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112387657</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998485922813</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300918207</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="CastShadow">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.231435060501</X>
+<Y>0.459323883057</Y>
+<Z>0.784484028816</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">1072</token>
+<Content name="MeshId"><url>rbxassetid://9718716413</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.607802748680</X>
+<Y>0.599708616734</Y>
+<Z>1.024248600006</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001036131</X>
+<Y>0.000208155820</Y>
+<Z>-0.000005221654</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1712">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.011573791504</X>
+<Y>0.952144622803</Y>
+<Z>0.271942138672</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1698</Ref>
+<Ref name="Part1">RBX1542</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1708">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.721649169922</X>
+<Y>109.852592468262</Y>
+<Z>270.388427734375</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112387657</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998485922813</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300918207</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>1.000000000000</R>
+<G>1.000000000000</G>
+<B>1.000000000000</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.226533889771</X>
+<Y>0.330335617065</Y>
+<Z>1.202600955963</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://9718718653</url></Content>
+<string name="Name">2</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.601403713226</X>
+<Y>0.431297242641</Y>
+<Z>1.570155978203</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001258989</X>
+<Y>0.000207676581</Y>
+<Z>-0.000006344764</Z>
+</Vector3>
+</Properties>
+<Item class="Folder" referent="RBX1713">
+<Properties>
+<string name="Name">Sparkles</string>
+</Properties>
+<Item class="Attachment" referent="RBX1714">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.260947495699</X>
+<Y>-0.069569788873</Y>
+<Z>0.759477734566</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">single</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1715">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 1.5 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1716">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1717">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.780030488968</X>
+<Y>-0.069569788873</Y>
+<Z>-0.127325117588</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">single</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1718">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 1.5 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1719">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1720">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.686640202999</X>
+<Y>-0.069569788873</Y>
+<Z>0.401163637638</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">single</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1721">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 1.5 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1722">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1723">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.691418111324</X>
+<Y>-0.069569788873</Y>
+<Z>0.401163637638</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">single</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1724">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 1.5 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1725">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1726">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.001782562351</X>
+<Y>0.209837481380</Y>
+<Z>-0.783215701580</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">single</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1727">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 1.5 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1728">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1729">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.502695083618</X>
+<Y>0.105495274067</Y>
+<Z>-0.578729152679</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">single</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1730">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 1.5 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1731">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1732">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.489982366562</X>
+<Y>0.105495274067</Y>
+<Z>-0.578729152679</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">single</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1733">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 1.5 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1734">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX1735">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.779628992081</X>
+<Y>-0.069569788873</Y>
+<Z>-0.127325117588</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">single</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1736">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 1.5 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1737">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX1738">
+<Properties>
+<string name="Name">LayoutOrder</string>
+<string name="Value">2</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX1739">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.260103493929</X>
+<Y>-0.069569788873</Y>
+<Z>0.759477734566</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">single</string>
+</Properties>
+<Item class="ParticleEmitter" referent="RBX1740">
+<Properties>
+<float name="Brightness">5.000000000000</float>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">0.5 1.5 </NumberRange>
+<float name="LightEmission">0.100000001490</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">2</string>
+<float name="Rate">0.500000000000</float>
+<NumberRange name="RotSpeed">-30 30 </NumberRange>
+<NumberRange name="Rotation">-360 360 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.497 0.1 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>360.000000000000</X>
+<Y>360.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6873217897</url></Content>
+<float name="ZOffset">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX1741">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+</Item>
+<Item class="Weld" referent="RBX1742">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.011558532715</X>
+<Y>1.414787292480</Y>
+<Z>-0.010375976562</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1708</Ref>
+<Ref name="Part1">RBX1542</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1702">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.386169433594</X>
+<Y>109.452957153320</Y>
+<Z>269.928649902344</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112387657</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998485922813</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300918207</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="CastShadow">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>0.953682005405</X>
+<Y>0.593870162964</Y>
+<Z>0.153257966042</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">1072</token>
+<Content name="MeshId"><url>rbxassetid://9718715447</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.245159149170</X>
+<Y>0.775376737118</Y>
+<Z>0.200098723173</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001060907</X>
+<Y>0.000206694385</Y>
+<Z>-0.000005346518</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1743">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.011573791504</X>
+<Y>1.040149688721</Y>
+<Z>-0.596282958984</Z>
+<R00>0.725328445435</R00>
+<R01>-0.037586394697</R01>
+<R02>0.687376081944</R02>
+<R10>0.065658241510</R10>
+<R11>0.997733473778</R11>
+<R12>-0.014726419002</R12>
+<R20>-0.685264647007</R20>
+<R21>0.055813398212</R21>
+<R22>0.726152360439</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1702</Ref>
+<Ref name="Part1">RBX1542</Ref>
+</Properties>
+</Item>
+</Item>
+</Item>
+</roblox>
