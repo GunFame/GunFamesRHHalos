@@ -905,10 +905,15 @@ local function equipHalo3D(haloName)
 
     if not loadedModel and writefile_safe and readfile_safe then
         local targetFileName = cleanName .. ".rbxmx"
-        local githubUrl = "https://raw.githubusercontent.com/AikoHansen/RoyaleHighHalos/main/" .. targetFileName
+        local userUrl = "https://raw.githubusercontent.com/GunFame/GunFamesRHHalos/main/" .. targetFileName .. "?nocache=" .. math.random(1, 999999)
+        local fallbackUrl = "https://raw.githubusercontent.com/AikoHansen/RoyaleHighHalos/main/" .. targetFileName
         
         pcall(function()
-            local success, content = pcall(function() return game:HttpGet(githubUrl) end)
+            local success, content = pcall(function() return game:HttpGet(userUrl) end)
+            if not success or not content or #content < 1000 or content:find("404") then
+                success, content = pcall(function() return game:HttpGet(fallbackUrl) end)
+            end
+            
             if success and content and #content > 1000 and not content:find("404") then
                 writefile_safe(targetFileName, content)
                 local assetUrl = getasset(targetFileName)
