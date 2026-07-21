@@ -1,0 +1,5350 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Meta name="ExplicitColors">true</Meta>
+<Item class="Model" referent="RBX849">
+<Properties>
+<string name="Name">Lucky Halo 2021</string>
+<Ref name="PrimaryPart">RBX850</Ref>
+</Properties>
+<Item class="Script" referent="RBX851">
+<Properties>
+<string name="Name">luckyhalo2021</string>
+</Properties>
+</Item>
+<Item class="Model" referent="RBX852">
+<Properties>
+<string name="Name">main</string>
+<Ref name="PrimaryPart">RBX853</Ref>
+</Properties>
+<Item class="Model" referent="RBX854">
+<Properties>
+<string name="Name">main not neon</string>
+</Properties>
+<Item class="MeshPart" referent="RBX855">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.709777832031</X>
+<Y>109.777877807617</Y>
+<Z>270.397125244141</Z>
+<R00>0.793274343014</R00>
+<R01>0.053112410009</R01>
+<R02>-0.606543421745</R02>
+<R10>-0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633811176</R12>
+<R20>0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>2.093690872192</X>
+<Y>1.754312038422</Y>
+<Z>2.119292974472</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">1088</token>
+<Content name="MeshId"><url>rbxassetid://6428422697</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.465479969978</X>
+<Y>1.227931499481</Y>
+<Z>1.483400225639</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001221956</X>
+<Y>0.000207704186</Y>
+<Z>-0.000006158135</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX856">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.005653381348</X>
+<Y>1.343997955322</Y>
+<Z>-0.013916015625</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX855</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX857">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.005661010742</X>
+<Y>1.343997955322</Y>
+<Z>-0.013916015625</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX855</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX859">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.732666015625</X>
+<Y>109.341278076172</Y>
+<Z>270.438842773438</Z>
+<R00>0.793274343014</R00>
+<R01>0.053112410009</R01>
+<R02>-0.606543421745</R02>
+<R10>-0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633811176</R12>
+<R20>0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>2.262778043747</X>
+<Y>0.408903986216</Y>
+<Z>2.190639019012</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">1088</token>
+<Content name="MeshId"><url>rbxassetid://6428433267</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.583832621574</X>
+<Y>0.286212503910</Y>
+<Z>1.533338785172</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001005553</X>
+<Y>0.000207797057</Y>
+<Z>-0.000005067555</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX860">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.027465820312</X>
+<Y>0.906246185303</Y>
+<Z>0.014038085938</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX859</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX861">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.027481079102</X>
+<Y>0.906246185303</Y>
+<Z>0.014038085938</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX859</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX862">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.434112548828</X>
+<Y>109.585517883301</Y>
+<Z>270.128631591797</Z>
+<R00>-0.793274521828</R00>
+<R01>0.053112410009</R01>
+<R02>0.606543421745</R02>
+<R10>0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>-0.043633811176</R12>
+<R20>-0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>-0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.466184020042</X>
+<Y>1.000494956970</Y>
+<Z>0.721904993057</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">1088</token>
+<Content name="MeshId"><url>rbxassetid://6472603621</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.466184020042</X>
+<Y>0.995778918266</Y>
+<Z>0.721904993057</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001126612</X>
+<Y>0.000207170160</Y>
+<Z>-0.000005677641</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX863">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.067550659180</X>
+<Y>1.170410156250</Y>
+<Z>-0.402648925781</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX862</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX864">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.067558288574</X>
+<Y>1.170410156250</Y>
+<Z>-0.402648925781</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX862</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX865">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.531311035156</X>
+<Y>109.530685424805</Y>
+<Z>270.156066894531</Z>
+<R00>0.793274343014</R00>
+<R01>0.053112410009</R01>
+<R02>-0.606543421745</R02>
+<R10>-0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633811176</R12>
+<R20>0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>2.268171072006</X>
+<Y>0.436408013105</Y>
+<Z>1.324973940849</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">1088</token>
+<Content name="MeshId"><url>rbxassetid://6428426433</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.587607383728</X>
+<Y>0.305463999510</Y>
+<Z>0.927416145802</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001099434</X>
+<Y>0.000207190518</Y>
+<Z>-0.000005540674</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX866">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.008964538574</X>
+<Y>1.110099792480</Y>
+<Z>-0.324310302734</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX865</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX867">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.008941650391</X>
+<Y>1.110107421875</Y>
+<Z>-0.324340820312</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX865</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="ParticleEmitter" referent="RBX868">
+<Properties>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">3 3 </NumberRange>
+<float name="LightEmission">1.000000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">1</string>
+<NumberRange name="RotSpeed">50 50 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.0936 0 0 0.199434 0 0 0.302 0 0 0.398161 0 0 0.496 0.02 0 0.604668 0 0 0.701 0.05 0 0.805516 0 0 0.899 0 0 0.997171 0 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>10.000000000000</X>
+<Y>10.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>rbxassetid://5541285586</url></Content>
+<float name="ZOffset">1.000000000000</float>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX869">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.522369384766</X>
+<Y>109.601524353027</Y>
+<Z>270.151153564453</Z>
+<R00>0.793274343014</R00>
+<R01>0.053112410009</R01>
+<R02>-0.606543421745</R02>
+<R10>-0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633811176</R12>
+<R20>0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>2.263063907623</X>
+<Y>1.524863004684</Y>
+<Z>1.272745966911</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">288</token>
+<Content name="MeshId"><url>rbxassetid://6428428747</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.584032773972</X>
+<Y>1.067328572273</Y>
+<Z>0.890859127045</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001134546</X>
+<Y>0.000207182675</Y>
+<Z>-0.000005717623</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX870">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.010704040527</X>
+<Y>1.181377410889</Y>
+<Z>-0.330566406250</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX869</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX871">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.010696411133</X>
+<Y>1.181396484375</Y>
+<Z>-0.330566406250</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX869</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="ParticleEmitter" referent="RBX872">
+<Properties>
+<ColorSequence name="Color">0 0.819608 0.309804 0.643137 0 1 0.819608 0.309804 0.643137 0 </ColorSequence>
+<token name="EmissionDirection">2</token>
+<NumberRange name="Lifetime">3 3 </NumberRange>
+<float name="LightEmission">1.000000000000</float>
+<bool name="LockedToPart">true</bool>
+<string name="Name">1</string>
+<NumberRange name="RotSpeed">50 50 </NumberRange>
+<NumberSequence name="Size">0 0 0 0.0936 0 0 0.199434 0 0 0.302 0 0 0.398161 0 0 0.496 0.02 0 0.604668 0 0 0.701 0.02 0 0.805516 0 0 0.899 0 0 0.997171 0 0 1 0 0 </NumberSequence>
+<NumberRange name="Speed">0 0 </NumberRange>
+<Vector2 name="SpreadAngle">
+<X>10.000000000000</X>
+<Y>10.000000000000</Y>
+</Vector2>
+<Content name="Texture"><url>rbxassetid://5541285586</url></Content>
+<float name="ZOffset">1.000000000000</float>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX873">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.736938476562</X>
+<Y>109.559341430664</Y>
+<Z>270.428100585938</Z>
+<R00>-0.793274343014</R00>
+<R01>0.053112398833</R01>
+<R02>0.606543481350</R02>
+<R10>0.033489242196</R10>
+<R11>0.998486042023</R11>
+<R12>-0.043633814901</R12>
+<R20>-0.607942879200</R20>
+<R21>-0.014300918207</R21>
+<R22>-0.793852031231</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>1.000000000000</R>
+<G>1.000000000000</G>
+<B>1.000000000000</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.814219951630</X>
+<Y>0.256889939308</Y>
+<Z>1.767138957977</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://6475491862</url></Content>
+<string name="Name">2</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.814219951630</X>
+<Y>0.256889939308</Y>
+<Z>1.767138957977</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001113637</X>
+<Y>0.000207768098</Y>
+<Z>-0.000005612254</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX874">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.010246276855</X>
+<Y>1.123908996582</Y>
+<Z>0.017608642578</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX873</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX875">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.010253906250</X>
+<Y>1.123901367188</Y>
+<Z>0.017608642578</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX873</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX853">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.727416992188</X>
+<Y>109.738006591797</Y>
+<Z>270.425537109375</Z>
+<R00>0.793274343014</R00>
+<R01>0.053112410009</R01>
+<R02>-0.606543421745</R02>
+<R10>-0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633811176</R12>
+<R20>0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.000000000000</X>
+<Y>1.000000000000</Y>
+<Z>1.000000000000</Z>
+</Vector3>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001202194</X>
+<Y>0.000207766425</Y>
+<Z>-0.000006058541</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX876">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.010261535645</X>
+<Y>1.302856445312</Y>
+<Z>0.017578125000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX853</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX877">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.010284423828</X>
+<Y>1.302841186523</Y>
+<Z>0.017608642578</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX853</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="RBX878">
+<Properties>
+<string name="Name">hoverclouds</string>
+<Ref name="PrimaryPart">RBX879</Ref>
+</Properties>
+<Item class="Part" referent="RBX879">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.263275146484</X>
+<Y>109.493415832520</Y>
+<Z>270.030426025391</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112395108</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300920069</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.000000000000</X>
+<Y>1.000000000000</Y>
+<Z>1.000000000000</Z>
+</Vector3>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001080961</X>
+<Y>0.000207009522</Y>
+<Z>-0.000005447579</Z>
+</Vector3>
+</Properties>
+<Item class="Motor6D" referent="RBX880">
+<Properties>
+<CoordinateFrame name="C0">
+<X>-0.146421432495</X>
+<Y>-1.039871215820</Y>
+<Z>0.588250517845</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.000000000000</X>
+<Y>0.049061048776</Y>
+<Z>0.000000002145</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<float name="MaxVelocity">0.050000000745</float>
+<string name="Name">CloudMotor</string>
+<Ref name="Part0">RBX879</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX881">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-405.898773193359</X>
+<Y>109.869018554688</Y>
+<Z>270.376464843750</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112395108</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300920069</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>1.000000000000</R>
+<G>1.000000000000</G>
+<B>1.000000000000</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>0.285151004791</X>
+<Y>0.198760002851</Y>
+<Z>0.190957963467</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://6428439695</url></Content>
+<string name="Name">2</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.199591591954</X>
+<Y>0.139122143388</Y>
+<Z>0.133661106229</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001267131</X>
+<Y>0.000208054553</Y>
+<Z>-0.000006385795</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX882">
+<Properties>
+<CoordinateFrame name="C0">
+<X>-0.486961364746</X>
+<Y>-0.389446258545</Y>
+<Z>-0.070007324219</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">CloudPartWeld</string>
+<Ref name="Part0">RBX881</Ref>
+<Ref name="Part1">RBX879</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX883">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.538421630859</X>
+<Y>109.836616516113</Y>
+<Z>269.596923828125</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112395108</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300920069</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>1.000000000000</R>
+<G>1.000000000000</G>
+<B>1.000000000000</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>0.208659976721</X>
+<Y>0.154638990760</Y>
+<Z>0.166912972927</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://6428439393</url></Content>
+<string name="Name">2</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.146051660180</X>
+<Y>0.108239628375</Y>
+<Z>0.116830825806</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001251070</X>
+<Y>0.000205790304</Y>
+<Z>-0.000006304858</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX884">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.493301391602</X>
+<Y>-0.334270477295</Y>
+<Z>0.162292480469</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">CloudPartWeld</string>
+<Ref name="Part0">RBX883</Ref>
+<Ref name="Part1">RBX879</Ref>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="RBX885">
+<Properties>
+<string name="Name">rotateclouds</string>
+<Ref name="PrimaryPart">RBX886</Ref>
+</Properties>
+<Item class="Part" referent="RBX886">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.680969238281</X>
+<Y>109.218658447266</Y>
+<Z>270.536743164062</Z>
+<R00>-0.831458091736</R00>
+<R01>0.053112395108</R01>
+<R02>-0.553042888641</R02>
+<R10>0.052149981260</R10>
+<R11>0.998486042023</R11>
+<R12>0.017487689853</R12>
+<R20>0.553134381771</R20>
+<R21>-0.014300920069</R21>
+<R22>-0.832969188690</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.000000000000</X>
+<Y>1.000000000000</Y>
+<Z>1.000000000000</Z>
+</Vector3>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000000944776</X>
+<Y>0.000208067213</Y>
+<Z>-0.000004761265</Z>
+</Vector3>
+</Properties>
+<Item class="Motor6D" referent="RBX887">
+<Properties>
+<CoordinateFrame name="C0">
+<X>-0.009122848511</X>
+<Y>-0.785163402557</Y>
+<Z>0.142796158791</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>0.000000000000</R11>
+<R12>-1.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>1.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<float name="DesiredAngle">255.708740234375</float>
+<float name="MaxVelocity">0.050000000745</float>
+<string name="Name">CloudMotor</string>
+<Ref name="Part0">RBX886</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX888">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-407.575134277344</X>
+<Y>109.330146789551</Y>
+<Z>271.099609375000</Z>
+<R00>-0.831458091736</R00>
+<R01>0.053112395108</R01>
+<R02>-0.553042888641</R02>
+<R10>0.052149981260</R10>
+<R11>0.998486042023</R11>
+<R12>0.017487689853</R12>
+<R20>0.553134381771</R20>
+<R21>-0.014300920069</R21>
+<R22>-0.832969188690</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>1.000000000000</R>
+<G>1.000000000000</G>
+<B>1.000000000000</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>0.443729996681</X>
+<Y>0.401618957520</Y>
+<Z>0.324955999851</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://6428440014</url></Content>
+<string name="Name">2</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.310589015484</X>
+<Y>0.281113356352</Y>
+<Z>0.227453112602</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001000036</X>
+<Y>0.000209029997</Y>
+<Z>-0.000005039751</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX889">
+<Properties>
+<CoordinateFrame name="C0">
+<X>-1.060607910156</X>
+<Y>-0.055782318115</Y>
+<Z>-0.027618408203</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">CloudPartWeld</string>
+<Ref name="Part0">RBX888</Ref>
+<Ref name="Part1">RBX886</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX890">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-405.723205566406</X>
+<Y>109.747177124023</Y>
+<Z>270.074554443359</Z>
+<R00>-0.831458091736</R00>
+<R01>0.053112395108</R01>
+<R02>-0.553042888641</R02>
+<R10>0.052149981260</R10>
+<R11>0.998486042023</R11>
+<R12>0.017487689853</R12>
+<R20>0.553134381771</R20>
+<R21>-0.014300920069</R21>
+<R22>-0.832969188690</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>1.000000000000</R>
+<G>1.000000000000</G>
+<B>1.000000000000</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>0.488701939583</X>
+<Y>0.401537001133</Y>
+<Z>0.257488995790</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://6428440379</url></Content>
+<string name="Name">2</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.342067152262</X>
+<Y>0.281055986881</Y>
+<Z>0.180229544640</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000001206739</X>
+<Y>0.000207387435</Y>
+<Z>-0.000006081448</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX891">
+<Properties>
+<CoordinateFrame name="C0">
+<X>1.024429321289</X>
+<Y>-0.585197448730</Y>
+<Z>0.135437011719</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">CloudPartWeld</string>
+<Ref name="Part0">RBX890</Ref>
+<Ref name="Part1">RBX886</Ref>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Folder" referent="RBX892">
+<Properties>
+<string name="Name">Beams</string>
+</Properties>
+<Item class="Model" referent="RBX893">
+<Properties>
+<string name="Name">beams</string>
+<Ref name="PrimaryPart">RBX894</Ref>
+</Properties>
+<Item class="Model" referent="RBX895">
+<Properties>
+<string name="Name">beams</string>
+</Properties>
+<Item class="Part" referent="RBX896">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-405.232757568359</X>
+<Y>109.400611877441</Y>
+<Z>270.079772949219</Z>
+<R00>-0.053070411086</R00>
+<R01>-0.217844545841</R01>
+<R02>0.974539637566</R02>
+<R10>-0.998488128185</R10>
+<R11>-0.002409078181</R11>
+<R12>-0.054913062602</R12>
+<R20>0.014310318045</R20>
+<R21>-0.975980639458</R21>
+<R22>-0.217387080193</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.384313732386</R>
+<G>0.145098045468</G>
+<B>0.819607853889</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.050000000745</X>
+<Y>0.050000000745</Y>
+<Z>0.050000000745</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001034962</X>
+<Y>0.000207643578</Y>
+<Z>-0.000005215765</Z>
+</Vector3>
+</Properties>
+<Item class="Attachment" referent="RBX897">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.219429194927</X>
+<Y>-0.000018358231</Y>
+<Z>-0.694169044495</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment0</string>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX898">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059778690338</R00>
+<R01>-0.998141169548</R01>
+<R02>0.011861294508</R02>
+<R10>-0.118228435516</R10>
+<R11>-0.004719138145</R11>
+<R12>-0.992975234985</R12>
+<R20>0.991185426712</R20>
+<R21>-0.060761094093</R21>
+<R22>-0.117726564407</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.997039794922</X>
+<Y>1.050285339355</Y>
+<Z>-1.178192138672</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX896</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX899">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.006732553244</X>
+<Y>-0.017474889755</Y>
+<Z>-0.763303756714</Z>
+<R00>0.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>1.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>-0.000000000000</R12>
+<R20>-1.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment1</string>
+</Properties>
+</Item>
+<Item class="Beam" referent="RBX900">
+<Properties>
+<Ref name="Attachment0">RBX897</Ref>
+<Ref name="Attachment1">RBX899</Ref>
+<float name="CurveSize0">-0.100000001490</float>
+<float name="CurveSize1">-0.100000001490</float>
+<float name="LightEmission">0.300000011921</float>
+<float name="LightInfluence">1.000000000000</float>
+<int name="Segments">1</int>
+<Content name="Texture"><url>rbxassetid://6468086743</url></Content>
+<float name="TextureLength">1.250000000000</float>
+<token name="TextureMode">1</token>
+<float name="TextureSpeed">-0.200000002980</float>
+<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+<float name="Width0">0.009999999776</float>
+<float name="Width1">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX901">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Weld" referent="RBX902">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059778690338</R00>
+<R01>-0.998141169548</R01>
+<R02>0.011861294508</R02>
+<R10>-0.118228435516</R10>
+<R11>-0.004719138145</R11>
+<R12>-0.992975234985</R12>
+<R20>0.991185426712</R20>
+<R21>-0.060761094093</R21>
+<R22>-0.117726564407</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.997009277344</X>
+<Y>1.050300598145</Y>
+<Z>-1.178222656250</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX896</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX903">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX904">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX905">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX906">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX907">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-408.187866210938</X>
+<Y>109.567237854004</Y>
+<Z>270.738769531250</Z>
+<R00>-0.053070411086</R00>
+<R01>0.217844545841</R01>
+<R02>-0.974539637566</R02>
+<R10>-0.998488128185</R10>
+<R11>0.002409078181</R11>
+<R12>0.054913062602</R12>
+<R20>0.014310318045</R20>
+<R21>0.975980639458</R21>
+<R22>0.217387080193</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.384313732386</R>
+<G>0.145098045468</G>
+<B>0.819607853889</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.050000000745</X>
+<Y>0.050000000745</Y>
+<Z>0.050000000745</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001117551</X>
+<Y>0.000207824967</Y>
+<Z>-0.000005631979</Z>
+</Vector3>
+</Properties>
+<Item class="Attachment" referent="RBX908">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.006732553244</X>
+<Y>-0.017474889755</Y>
+<Z>-0.763303756714</Z>
+<R00>0.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>1.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>-0.000000000000</R12>
+<R20>-1.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment1</string>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX909">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059778690338</R00>
+<R01>-0.998141169548</R01>
+<R02>0.011861294508</R02>
+<R10>0.118228435516</R10>
+<R11>0.004719138145</R11>
+<R12>0.992975234985</R12>
+<R20>-0.991185426712</R20>
+<R21>0.060761094093</R21>
+<R22>0.117726564407</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.952140808105</X>
+<Y>1.050296783447</Y>
+<Z>1.144592285156</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX907</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX910">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.219429194927</X>
+<Y>-0.000018119812</Y>
+<Z>-0.741567611694</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment0</string>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX911">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059778690338</R00>
+<R01>-0.998141169548</R01>
+<R02>0.011861294508</R02>
+<R10>0.118228435516</R10>
+<R11>0.004719138145</R11>
+<R12>0.992975234985</R12>
+<R20>-0.991185426712</R20>
+<R21>0.060761094093</R21>
+<R22>0.117726564407</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.952117919922</X>
+<Y>1.050285339355</Y>
+<Z>1.144622802734</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX907</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Beam" referent="RBX912">
+<Properties>
+<Ref name="Attachment0">RBX910</Ref>
+<Ref name="Attachment1">RBX908</Ref>
+<float name="CurveSize0">-0.100000001490</float>
+<float name="CurveSize1">-0.100000001490</float>
+<float name="LightEmission">0.300000011921</float>
+<float name="LightInfluence">1.000000000000</float>
+<int name="Segments">1</int>
+<Content name="Texture"><url>rbxassetid://6468086743</url></Content>
+<float name="TextureLength">1.250000000000</float>
+<token name="TextureMode">1</token>
+<float name="TextureSpeed">-0.200000002980</float>
+<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+<float name="Width0">0.009999999776</float>
+<float name="Width1">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX913">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX914">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX915">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX916">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX917">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="RBX918">
+<Properties>
+<string name="Name">beams</string>
+</Properties>
+<Item class="Part" referent="RBX919">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-407.642547607422</X>
+<Y>109.550865173340</Y>
+<Z>271.621032714844</Z>
+<R00>-0.053158789873</R00>
+<R01>0.793304681778</R01>
+<R02>-0.606499850750</R02>
+<R10>-0.998484313488</R10>
+<R11>-0.033560384065</R11>
+<R12>0.043618500233</R12>
+<R20>0.014248394407</R20>
+<R21>0.607899665833</R21>
+<R22>0.793886184692</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.384313732386</R>
+<G>0.145098045468</G>
+<B>0.819607853889</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.050000000745</X>
+<Y>0.050000000745</Y>
+<Z>0.050000000745</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001109436</X>
+<Y>0.000210299055</Y>
+<Z>-0.000005591081</Z>
+</Vector3>
+</Properties>
+<Item class="Attachment" referent="RBX920">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.006732553244</X>
+<Y>-0.017474889755</Y>
+<Z>-0.763303756714</Z>
+<R00>0.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>1.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>-0.000000000000</R12>
+<R20>-1.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment1</string>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX921">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059860348701</R00>
+<R01>-0.998137116432</R01>
+<R02>0.011790752411</R02>
+<R10>0.727694511414</R10>
+<R11>-0.035549879074</R11>
+<R12>0.684979498386</R12>
+<R20>-0.683284282684</R20>
+<R21>0.049583196640</R21>
+<R22>0.728466928005</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.017402648926</X>
+<Y>1.050285339355</Y>
+<Z>1.513549804688</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX919</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX922">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059860348701</R00>
+<R01>-0.998137116432</R01>
+<R02>0.011790752411</R02>
+<R10>0.727694511414</R10>
+<R11>-0.035549879074</R11>
+<R12>0.684979498386</R12>
+<R20>-0.683284282684</R20>
+<R21>0.049583196640</R21>
+<R22>0.728466928005</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.017372131348</X>
+<Y>1.050300598145</Y>
+<Z>1.513549804688</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX919</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Beam" referent="RBX923">
+<Properties>
+<Ref name="Attachment0">RBX924</Ref>
+<Ref name="Attachment1">RBX920</Ref>
+<float name="CurveSize0">-0.100000001490</float>
+<float name="CurveSize1">-0.100000001490</float>
+<float name="LightEmission">0.300000011921</float>
+<float name="LightInfluence">1.000000000000</float>
+<int name="Segments">1</int>
+<Content name="Texture"><url>rbxassetid://6468086743</url></Content>
+<float name="TextureLength">1.250000000000</float>
+<token name="TextureMode">1</token>
+<float name="TextureSpeed">-0.200000002980</float>
+<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+<float name="Width0">0.009999999776</float>
+<float name="Width1">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX925">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX924">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.219429194927</X>
+<Y>-0.000018119812</Y>
+<Z>-0.767045974731</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment0</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX926">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX927">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX928">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX929">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX930">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-405.830780029297</X>
+<Y>109.420516967773</Y>
+<Z>269.249450683594</Z>
+<R00>-0.053158916533</R00>
+<R01>-0.793304800987</R01>
+<R02>0.606499910355</R02>
+<R10>-0.998484432697</R10>
+<R11>0.033560205251</R11>
+<R12>-0.043618466705</R12>
+<R20>0.014248406515</R20>
+<R21>-0.607899606228</R21>
+<R22>-0.793886423111</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.384313732386</R>
+<G>0.145098045468</G>
+<B>0.819607853889</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.050000000745</X>
+<Y>0.050000000745</Y>
+<Z>0.050000000745</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001044828</X>
+<Y>0.000205273100</Y>
+<Z>-0.000005265486</Z>
+</Vector3>
+</Properties>
+<Item class="Attachment" referent="RBX931">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.219429194927</X>
+<Y>-0.000018358231</Y>
+<Z>-0.694169044495</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment0</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX932">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.006732553244</X>
+<Y>-0.017475128174</Y>
+<Z>-0.768655955791</Z>
+<R00>0.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>1.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>-0.000000000000</R12>
+<R20>-1.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment1</string>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX933">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059860467911</R00>
+<R01>-0.998137235641</R01>
+<R02>0.011790752411</R02>
+<R10>-0.727694630623</R10>
+<R11>0.035549700260</R11>
+<R12>-0.684979557991</R12>
+<R20>0.683284401894</R20>
+<R21>-0.049583166838</R21>
+<R22>-0.728467106819</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.017211914062</X>
+<Y>1.050277709961</Y>
+<Z>-1.473754882812</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX930</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX934">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059860467911</R00>
+<R01>-0.998137235641</R01>
+<R02>0.011790752411</R02>
+<R10>-0.727694630623</R10>
+<R11>0.035549700260</R11>
+<R12>-0.684979557991</R12>
+<R20>0.683284401894</R20>
+<R21>-0.049583166838</R21>
+<R22>-0.728467106819</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.017196655273</X>
+<Y>1.050292968750</Y>
+<Z>-1.473754882812</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX930</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Beam" referent="RBX935">
+<Properties>
+<Ref name="Attachment0">RBX931</Ref>
+<Ref name="Attachment1">RBX932</Ref>
+<float name="CurveSize0">-0.100000001490</float>
+<float name="CurveSize1">-0.100000001490</float>
+<float name="LightEmission">0.300000011921</float>
+<float name="LightInfluence">1.000000000000</float>
+<int name="Segments">1</int>
+<Content name="Texture"><url>rbxassetid://6468086743</url></Content>
+<float name="TextureLength">1.250000000000</float>
+<token name="TextureMode">1</token>
+<float name="TextureSpeed">-0.200000002980</float>
+<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+<float name="Width0">0.009999999776</float>
+<float name="Width1">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX936">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX937">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX938">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX939">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX940">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="RBX941">
+<Properties>
+<string name="Name">beams</string>
+</Properties>
+<Item class="Part" referent="RBX942">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-406.649444580078</X>
+<Y>109.502410888672</Y>
+<Z>271.927032470703</Z>
+<R00>-0.053066737950</R00>
+<R01>0.997566342354</R01>
+<R02>0.045226007700</R02>
+<R10>-0.998489141464</R10>
+<R11>-0.053653426468</R11>
+<R12>0.011857889593</R12>
+<R20>0.014255562797</R20>
+<R21>-0.044528096914</R21>
+<R22>0.998906493187</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.384313732386</R>
+<G>0.145098045468</G>
+<B>0.819607853889</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.050000000745</X>
+<Y>0.050000000745</Y>
+<Z>0.050000000745</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001085420</X>
+<Y>0.000211555642</Y>
+<Z>-0.000005470048</Z>
+</Vector3>
+</Properties>
+<Item class="Beam" referent="RBX943">
+<Properties>
+<Ref name="Attachment0">RBX944</Ref>
+<Ref name="Attachment1">RBX945</Ref>
+<float name="CurveSize0">-0.100000001490</float>
+<float name="CurveSize1">-0.100000001490</float>
+<float name="LightEmission">0.300000011921</float>
+<float name="LightInfluence">1.000000000000</float>
+<int name="Segments">1</int>
+<Content name="Texture"><url>rbxassetid://6468086743</url></Content>
+<float name="TextureLength">1.250000000000</float>
+<token name="TextureMode">1</token>
+<float name="TextureSpeed">-0.200000002980</float>
+<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+<float name="Width0">0.009999999776</float>
+<float name="Width1">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX946">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Weld" referent="RBX947">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059769511223</R00>
+<R01>-0.998142361641</R01>
+<R02>0.011807192117</R02>
+<R10>0.996653199196</R10>
+<R11>-0.059011220932</R11>
+<R12>0.056569397449</R12>
+<R20>-0.055767554790</R20>
+<R21>0.015148798004</R21>
+<R22>0.998328864574</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.992828369141</X>
+<Y>1.050289154053</Y>
+<Z>1.151977539062</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX942</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX945">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.006732553244</X>
+<Y>-0.017474889755</Y>
+<Z>-0.763303756714</Z>
+<R00>0.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>1.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>-0.000000000000</R12>
+<R20>-1.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment1</string>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX944">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.219429194927</X>
+<Y>-0.000017166138</Y>
+<Z>-0.735626220703</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment0</string>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX948">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059769511223</R00>
+<R01>-0.998142361641</R01>
+<R02>0.011807192117</R02>
+<R10>0.996653199196</R10>
+<R11>-0.059011220932</R11>
+<R12>0.056569397449</R12>
+<R20>-0.055767554790</R20>
+<R21>0.015148798004</R21>
+<R22>0.998328864574</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.992851257324</X>
+<Y>1.050273895264</Y>
+<Z>1.151977539062</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX942</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX949">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX950">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX951">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX952">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX953">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-406.787017822266</X>
+<Y>109.466224670410</Y>
+<Z>268.888519287109</Z>
+<R00>-0.053066737950</R00>
+<R01>-0.997566342354</R01>
+<R02>-0.045225977898</R02>
+<R10>-0.998489141464</R10>
+<R11>0.053653307259</R11>
+<R12>-0.011857889593</R12>
+<R20>0.014255562797</R20>
+<R21>0.044528096914</R21>
+<R22>-0.998906612396</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.384313732386</R>
+<G>0.145098045468</G>
+<B>0.819607853889</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.050000000745</X>
+<Y>0.050000000745</Y>
+<Z>0.050000000745</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001067483</X>
+<Y>0.000203897565</Y>
+<Z>-0.000005379658</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX954">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059769511223</R00>
+<R01>-0.998142361641</R01>
+<R02>0.011807192117</R02>
+<R10>-0.996653199196</R10>
+<R11>0.059011101723</R11>
+<R12>-0.056569397449</R12>
+<R20>0.055767554790</R20>
+<R21>-0.015148798004</R21>
+<R22>-0.998328924179</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.962303161621</X>
+<Y>1.050285339355</Y>
+<Z>-1.178283691406</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX953</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX955">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.006732553244</X>
+<Y>-0.017474889755</Y>
+<Z>-0.763303756714</Z>
+<R00>0.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>1.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>-0.000000000000</R12>
+<R20>-1.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment1</string>
+</Properties>
+</Item>
+<Item class="Beam" referent="RBX956">
+<Properties>
+<Ref name="Attachment0">RBX957</Ref>
+<Ref name="Attachment1">RBX955</Ref>
+<float name="CurveSize0">-0.100000001490</float>
+<float name="CurveSize1">-0.100000001490</float>
+<float name="LightEmission">0.300000011921</float>
+<float name="LightInfluence">1.000000000000</float>
+<int name="Segments">1</int>
+<Content name="Texture"><url>rbxassetid://6468086743</url></Content>
+<float name="TextureLength">1.250000000000</float>
+<token name="TextureMode">1</token>
+<float name="TextureSpeed">-0.200000002980</float>
+<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+<float name="Width0">0.009999999776</float>
+<float name="Width1">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX958">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Weld" referent="RBX959">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059769511223</R00>
+<R01>-0.998142361641</R01>
+<R02>0.011807192117</R02>
+<R10>-0.996653199196</R10>
+<R11>0.059011101723</R11>
+<R12>-0.056569397449</R12>
+<R20>0.055767554790</R20>
+<R21>-0.015148798004</R21>
+<R22>-0.998328924179</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-0.962341308594</X>
+<Y>1.050296783447</Y>
+<Z>-1.178283691406</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX953</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX957">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.219429194927</X>
+<Y>-0.000018358231</Y>
+<Z>-0.694169044495</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment0</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX960">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX961">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX962">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX963">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Model" referent="RBX964">
+<Properties>
+<string name="Name">beams</string>
+</Properties>
+<Item class="Part" referent="RBX965">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-405.508972167969</X>
+<Y>109.433303833008</Y>
+<Z>271.337646484375</Z>
+<R00>-0.053155485541</R00>
+<R01>0.606515467167</R01>
+<R02>0.793292880058</R02>
+<R10>-0.998484551907</R10>
+<R11>-0.043623346835</R11>
+<R12>-0.033552095294</R12>
+<R20>0.014256238937</R20>
+<R21>-0.793874025345</R21>
+<R22>0.607915401459</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.384313732386</R>
+<G>0.145098045468</G>
+<B>0.819607853889</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<string name="Name">RIGHT BEAM</string>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.050000000745</X>
+<Y>0.050000000745</Y>
+<Z>0.050000000745</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001051166</X>
+<Y>0.000210648708</Y>
+<Z>-0.000005297426</Z>
+</Vector3>
+</Properties>
+<Item class="Attachment" referent="RBX966">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.006732463837</X>
+<Y>-0.017474889755</Y>
+<Z>-0.775249481201</Z>
+<R00>0.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>1.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>-0.000000000000</R12>
+<R20>-1.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment1</string>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX967">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059857845306</R00>
+<R01>-0.998137235641</R01>
+<R02>0.011798888445</R02>
+<R10>0.683298587799</R10>
+<R11>-0.049588084221</R11>
+<R12>-0.728453218937</R12>
+<R20>0.727681279182</R20>
+<R21>-0.035541474819</R21>
+<R22>0.684993982315</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>1.541557312012</X>
+<Y>1.050270080566</Y>
+<Z>-0.010650634766</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX965</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Beam" referent="RBX968">
+<Properties>
+<Ref name="Attachment0">RBX969</Ref>
+<Ref name="Attachment1">RBX966</Ref>
+<float name="CurveSize0">-0.100000001490</float>
+<float name="CurveSize1">-0.100000001490</float>
+<float name="LightEmission">0.300000011921</float>
+<float name="LightInfluence">1.000000000000</float>
+<int name="Segments">1</int>
+<Content name="Texture"><url>http://www.roblox.com/asset/?id=6468086743</url></Content>
+<float name="TextureLength">1.250000000000</float>
+<token name="TextureMode">1</token>
+<float name="TextureSpeed">-0.200000002980</float>
+<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+<float name="Width0">0.009999999776</float>
+<float name="Width1">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX970">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Attachment" referent="RBX969">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.219429016113</X>
+<Y>-0.000018358231</Y>
+<Z>-0.742004394531</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment0</string>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX971">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059857845306</R00>
+<R01>-0.998137235641</R01>
+<R02>0.011798888445</R02>
+<R10>0.683298587799</R10>
+<R11>-0.049588084221</R11>
+<R12>-0.728453218937</R12>
+<R20>0.727681279182</R20>
+<R21>-0.035541474819</R21>
+<R22>0.684993982315</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>1.541534423828</X>
+<Y>1.050292968750</Y>
+<Z>-0.010681152344</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX965</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX972">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX973">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX974">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX975">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX976">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-407.880706787109</X>
+<Y>109.533439636230</Y>
+<Z>269.520050048828</Z>
+<R00>-0.053155485541</R00>
+<R01>-0.606515467167</R01>
+<R02>-0.793292880058</R02>
+<R10>-0.998484551907</R10>
+<R11>0.043623346835</R11>
+<R12>0.033552095294</R12>
+<R20>0.014256238937</R20>
+<R21>0.793874025345</R21>
+<R22>-0.607915401459</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.384313732386</R>
+<G>0.145098045468</G>
+<B>0.819607853889</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.050000000745</X>
+<Y>0.050000000745</Y>
+<Z>0.050000000745</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001100799</X>
+<Y>0.000204932978</Y>
+<Z>-0.000005547555</Z>
+</Vector3>
+</Properties>
+<Item class="Attachment" referent="RBX977">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-0.006732553244</X>
+<Y>-0.017474889755</Y>
+<Z>-0.763303756714</Z>
+<R00>0.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>1.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>-0.000000000000</R12>
+<R20>-1.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>0.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment1</string>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX978">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059857845306</R00>
+<R01>-0.998137235641</R01>
+<R02>0.011798888445</R02>
+<R10>-0.683298587799</R10>
+<R11>0.049588084221</R11>
+<R12>0.728453218937</R12>
+<R20>-0.727681279182</R20>
+<R21>0.035541474819</R21>
+<R22>-0.684993982315</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-1.448234558105</X>
+<Y>1.050292968750</Y>
+<Z>-0.010681152344</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX976</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX979">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.059857845306</R00>
+<R01>-0.998137235641</R01>
+<R02>0.011798888445</R02>
+<R10>-0.683298587799</R10>
+<R11>0.049588084221</R11>
+<R12>0.728453218937</R12>
+<R20>-0.727681279182</R20>
+<R21>0.035541474819</R21>
+<R22>-0.684993982315</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>-1.448226928711</X>
+<Y>1.050277709961</Y>
+<Z>-0.010650634766</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX976</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Attachment" referent="RBX980">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>0.219429194927</X>
+<Y>-0.000018358231</Y>
+<Z>-0.694169044495</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">Attachment0</string>
+</Properties>
+</Item>
+<Item class="Beam" referent="RBX981">
+<Properties>
+<Ref name="Attachment0">RBX980</Ref>
+<Ref name="Attachment1">RBX977</Ref>
+<float name="CurveSize0">-0.100000001490</float>
+<float name="CurveSize1">-0.100000001490</float>
+<float name="LightEmission">0.300000011921</float>
+<float name="LightInfluence">1.000000000000</float>
+<int name="Segments">1</int>
+<Content name="Texture"><url>rbxassetid://6468086743</url></Content>
+<float name="TextureLength">1.250000000000</float>
+<token name="TextureMode">1</token>
+<float name="TextureSpeed">-0.200000002980</float>
+<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+<float name="Width0">0.009999999776</float>
+<float name="Width1">0.500000000000</float>
+</Properties>
+<Item class="StringValue" referent="RBX982">
+<Properties>
+<string name="Name">CheckboxDefaultEnabled</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX983">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX984">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX985">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX986">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="Part" referent="RBX894">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.710937500000</X>
+<Y>109.483909606934</Y>
+<Z>270.406158447266</Z>
+<R00>0.793274343014</R00>
+<R01>0.053112410009</R01>
+<R02>-0.606543421745</R02>
+<R10>-0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633811176</R12>
+<R20>0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.000000000000</X>
+<Y>1.000000000000</Y>
+<Z>1.000000000000</Z>
+</Vector3>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001076249</X>
+<Y>0.000207726189</Y>
+<Z>-0.000005423833</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX987">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.020065307617</X>
+<Y>1.050296783447</Y>
+<Z>-0.018859863281</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX894</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX988">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.020072937012</X>
+<Y>1.050281524658</Y>
+<Z>-0.018859863281</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX894</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX989">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX990">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX991">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX992">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX993">
+<Properties>
+<string name="Name">LayoutOrder</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Folder" referent="RBX994">
+<Properties>
+<string name="Name">Swirls &amp; Details</string>
+</Properties>
+<Item class="Model" referent="RBX995">
+<Properties>
+<string name="Name">other</string>
+<Ref name="PrimaryPart">RBX996</Ref>
+</Properties>
+<Item class="Model" referent="RBX997">
+<Properties>
+</Properties>
+<Item class="MeshPart" referent="RBX998">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-407.053619384766</X>
+<Y>109.266075134277</Y>
+<Z>270.842315673828</Z>
+<R00>-0.793274521828</R00>
+<R01>0.053112410009</R01>
+<R02>0.606543421745</R02>
+<R10>0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>-0.043633811176</R12>
+<R20>-0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>-0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.402601957321</X>
+<Y>0.179073333740</Y>
+<Z>0.498663008213</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://6492336571</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.402601957321</X>
+<Y>0.179073333740</Y>
+<Z>0.498663008213</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000000968278</X>
+<Y>0.000208645797</Y>
+<Z>-0.000004879706</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX999">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.020683288574</X>
+<Y>0.808334350586</Y>
+<Z>0.525726318359</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX998</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1000">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.020675659180</X>
+<Y>0.808345794678</Y>
+<Z>0.525726318359</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX998</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1001">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">0</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1002">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1003">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1004">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1005">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-407.053680419922</X>
+<Y>109.249588012695</Y>
+<Z>270.844024658203</Z>
+<R00>-0.793274521828</R00>
+<R01>0.053112410009</R01>
+<R02>0.606543421745</R02>
+<R10>0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>-0.043633811176</R12>
+<R20>-0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>-0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.422618985176</X>
+<Y>0.175479888916</Y>
+<Z>0.523348033428</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">288</token>
+<Content name="MeshId"><url>rbxassetid://6492338039</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.422618985176</X>
+<Y>0.175479888916</Y>
+<Z>0.523348033428</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000000960106</X>
+<Y>0.000208650046</Y>
+<Z>-0.000004838524</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1006">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.022239685059</X>
+<Y>0.791847229004</Y>
+<Z>0.526397705078</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1005</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1007">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.022201538086</X>
+<Y>0.791866302490</Y>
+<Z>0.526367187500</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX1005</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1008">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">0</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1009">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1010">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1011">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1012">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-407.053466796875</X>
+<Y>109.256057739258</Y>
+<Z>270.843841552734</Z>
+<R00>-0.793274521828</R00>
+<R01>0.053112410009</R01>
+<R02>0.606543421745</R02>
+<R10>0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>-0.043633811176</R12>
+<R20>-0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>-0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.420994997025</X>
+<Y>0.130537033081</Y>
+<Z>0.521386981010</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://6492338497</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.420994997025</X>
+<Y>0.130537033081</Y>
+<Z>0.521386981010</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000000963313</X>
+<Y>0.000208649697</Y>
+<Z>-0.000004854684</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1013">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.022094726562</X>
+<Y>0.798324584961</Y>
+<Z>0.526397705078</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1012</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1014">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.022071838379</X>
+<Y>0.798339843750</Y>
+<Z>0.526367187500</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX1012</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1015">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">0</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1016">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1017">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1018">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1019">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.420288085938</X>
+<Y>109.208435058594</Y>
+<Z>270.092376708984</Z>
+<R00>0.793274343014</R00>
+<R01>0.053112410009</R01>
+<R02>-0.606543421745</R02>
+<R10>-0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633811176</R12>
+<R20>0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>2.061852931976</X>
+<Y>0.359828978777</Y>
+<Z>0.838006019592</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">272</token>
+<Content name="MeshId"><url>rbxassetid://6428442657</url></Content>
+<string name="Name">1</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.443194985390</X>
+<Y>0.251862436533</Y>
+<Z>0.586562693119</Z>
+</Vector3>
+<Vector3 name="Velocity">
+<X>-0.000000939709</X>
+<Y>0.000207086458</Y>
+<Z>-0.000004735728</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1020">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.069122314453</X>
+<Y>0.795150756836</Y>
+<Z>-0.456268310547</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1019</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1021">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.069099426270</X>
+<Y>0.795166015625</Y>
+<Z>-0.456298828125</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX1019</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1022">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">0</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1023">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1024">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1025">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX996">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.665069580078</X>
+<Y>109.464019775391</Y>
+<Z>270.425292968750</Z>
+<R00>0.793274343014</R00>
+<R01>0.053112410009</R01>
+<R02>-0.606543421745</R02>
+<R10>-0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633811176</R12>
+<R20>0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.000000000000</X>
+<Y>1.000000000000</Y>
+<Z>1.000000000000</Z>
+</Vector3>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001066391</X>
+<Y>0.000207796707</Y>
+<Z>-0.000005374151</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1026">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.068763732910</X>
+<Y>1.032596588135</Y>
+<Z>-0.032409667969</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX996</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1027">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.068778991699</X>
+<Y>1.032581329346</Y>
+<Z>-0.032379150391</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX996</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1028">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1029">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1030">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1031">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+<Item class="MeshPart" referent="RBX1032">
+<Properties>
+<CoordinateFrame name="CFrame">
+<X>-406.687561035156</X>
+<Y>109.755355834961</Y>
+<Z>270.402618408203</Z>
+<R00>-0.793274521828</R00>
+<R01>0.053112410009</R01>
+<R02>0.606543421745</R02>
+<R10>0.033489231020</R10>
+<R11>0.998486042023</R11>
+<R12>-0.043633811176</R12>
+<R20>-0.607943058014</R20>
+<R21>-0.014300909825</R21>
+<R22>-0.793852090836</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<bool name="EnableFluidForces">false</bool>
+<Vector3 name="InitialSize">
+<X>1.361230015755</X>
+<Y>0.146860003471</Y>
+<Z>1.417669057846</Z>
+</Vector3>
+<bool name="Massless">true</bool>
+<token name="Material">1088</token>
+<Content name="MeshId"><url>rbxassetid://6463450310</url></Content>
+<string name="Name">rainbow swirl</string>
+<SharedString name="PhysicalConfigData">RjhBNUU3RDhGNTY0OTg2Rg==</SharedString>
+<BinaryString name="PhysicsData"><![CDATA[]]></BinaryString>
+<token name="RenderFidelity">2</token>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.361230015755</X>
+<Y>0.146860003471</Y>
+<Z>1.417669057846</Z>
+</Vector3>
+<Content name="TextureID"><url>rbxassetid://6463450359</url></Content>
+<Vector3 name="Velocity">
+<X>-0.000001210793</X>
+<Y>0.000207728925</Y>
+<Z>-0.000006101877</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1033">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.027397155762</X>
+<Y>1.322612762451</Y>
+<Z>-0.024017333984</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1032</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1034">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727660536766</R00>
+<R01>0.035478420556</R01>
+<R02>-0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>0.683324158192</R20>
+<R21>-0.049598619342</R21>
+<R22>-0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.027366638184</X>
+<Y>1.322631835938</Y>
+<Z>-0.024017333984</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX1032</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1035">
+<Properties>
+<string name="Name">CheckboxDefaultTransparency</string>
+<string name="Value">0</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1036">
+<Properties>
+<string name="Name">CheckboxDefaultCastShadow</string>
+<string name="Value">true</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1037">
+<Properties>
+<string name="Name">CheckboxDefaultCanTouch</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1038">
+<Properties>
+<string name="Name">CheckboxDefaultCanQuery</string>
+<string name="Value">false</string>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX1039">
+<Properties>
+<string name="Name">LayoutOrder</string>
+<string name="Value">2</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Folder" referent="RBX1040">
+<Properties>
+<string name="Name">Configuration</string>
+</Properties>
+<Item class="Folder" referent="RBX1041">
+<Properties>
+<string name="Name">Colors</string>
+</Properties>
+<Item class="StringValue" referent="RBX1042">
+<Properties>
+<string name="Name">MultiColor1</string>
+<string name="Value">Color3:0.820,0.310,0.643</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1043">
+<Properties>
+<string name="Name">MultiColor2</string>
+<string name="Value">Color3:1.000,1.000,1.000</string>
+</Properties>
+</Item>
+</Item>
+<Item class="StringValue" referent="RBX1044">
+<Properties>
+<string name="Name">AssetId</string>
+<string name="Value">Lucky Halo 2021</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1045">
+<Properties>
+<string name="Name">ToggleIndex</string>
+<string name="Value">1</string>
+</Properties>
+</Item>
+<Item class="StringValue" referent="RBX1046">
+<Properties>
+<string name="Name">Category</string>
+<string name="Value">Accessories</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX1047">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-406.693939208984</X>
+<Y>109.696929931641</Y>
+<Z>270.379394531250</Z>
+<R00>0.793286144733</R00>
+<R01>0.052722498775</R01>
+<R02>-0.606562077999</R02>
+<R10>-0.033439550549</R10>
+<R11>0.998512685299</R11>
+<R12>0.043057274073</R12>
+<R20>0.607930302620</R20>
+<R21>-0.013873574324</R21>
+<R22>0.793869316578</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.486274510622</R>
+<G>0.611764729023</G>
+<B>0.419607847929</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<string name="Name">RotationalOrigin</string>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.320000052452</X>
+<Y>0.060000002384</Y>
+<Z>0.279999971390</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000001181834</X>
+<Y>0.000207667748</Y>
+<Z>-0.000005955936</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1048">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727673649788</R00>
+<R01>-0.035428844392</R01>
+<R02>0.685007870197</R02>
+<R10>0.059388615191</R10>
+<R11>0.998169124126</R11>
+<R12>-0.011461982504</R12>
+<R20>-0.683347642422</R20>
+<R21>0.049022249877</R21>
+<R22>0.728445470333</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.010154724121</X>
+<Y>1.264266967773</Y>
+<Z>-0.041137695312</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1047</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1049">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727673649788</R00>
+<R01>-0.035428844392</R01>
+<R02>0.685007870197</R02>
+<R10>0.059388615191</R10>
+<R11>0.998169124126</R11>
+<R12>-0.011461982504</R12>
+<R20>-0.683347642422</R20>
+<R21>0.049022249877</R21>
+<R22>0.728445470333</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.010131835938</X>
+<Y>1.264286041260</Y>
+<Z>-0.041137695312</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX1047</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX1050">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-406.652954101562</X>
+<Y>110.063240051270</Y>
+<Z>270.371582031250</Z>
+<R00>-0.793262541294</R00>
+<R01>0.053478818387</R01>
+<R02>0.606526792049</R02>
+<R10>0.033570721745</R10>
+<R11>0.998461544514</R11>
+<R12>-0.044130139053</R12>
+<R20>-0.607953965664</R20>
+<R21>-0.014645241201</R21>
+<R22>-0.793837368488</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.819607853889</R>
+<G>0.309803932905</G>
+<B>0.643137276173</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<string name="Name">1</string>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>0.474146217108</X>
+<Y>0.167945578694</Y>
+<Z>0.051202919334</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<Vector3 name="Velocity">
+<X>-0.000001363398</X>
+<Y>0.000207668549</Y>
+<Z>-0.000006870940</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1051">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727647066116</R00>
+<R01>0.035559806973</R01>
+<R02>-0.685029327869</R02>
+<R10>0.060218665749</R10>
+<R11>0.998111248016</R11>
+<R12>-0.012153195217</R12>
+<R20>0.683303296566</R20>
+<R21>-0.050094790757</R21>
+<R22>-0.728414058685</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.025642395020</X>
+<Y>1.632324218750</Y>
+<Z>-0.056213378906</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloHeadWeld</string>
+<Ref name="Part0">RBX1050</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="SpecialMesh" referent="RBX1052">
+<Properties>
+<Content name="MeshId"><url>rbxassetid://6472636464</url></Content>
+<token name="MeshType">5</token>
+<Vector3 name="Scale">
+<X>0.997843503952</X>
+<Y>1.024058341980</Y>
+<Z>0.102405838668</Z>
+</Vector3>
+<Vector3 name="VertexColor">
+<X>0.819607913494</X>
+<Y>0.309803932905</Y>
+<Z>0.643137276173</Z>
+</Vector3>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1053">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>-0.727647066116</R00>
+<R01>0.035559806973</R01>
+<R02>-0.685029327869</R02>
+<R10>0.060218665749</R10>
+<R11>0.998111248016</R11>
+<R12>-0.012153195217</R12>
+<R20>0.683303296566</R20>
+<R21>-0.050094790757</R21>
+<R22>-0.728414058685</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.025657653809</X>
+<Y>1.632308959961</Y>
+<Z>-0.056213378906</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX1050</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX858">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-406.794097900391</X>
+<Y>108.436714172363</Y>
+<Z>270.423950195312</Z>
+<R00>0.793274402618</R00>
+<R01>0.053112406284</R01>
+<R02>-0.606543481350</R02>
+<R10>-0.033489238471</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633814901</R12>
+<R20>0.607942998409</R20>
+<R21>-0.014300911687</R21>
+<R22>0.793852031231</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.917647063732</R>
+<G>0.721568644047</G>
+<B>0.572549045086</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<string name="Name">StationaryHaloBase</string>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.899999976158</X>
+<Y>0.949999988079</Y>
+<Z>0.949999988079</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000000557201</X>
+<Y>0.000207729405</Y>
+<Z>-0.000002808051</Z>
+</Vector3>
+</Properties>
+<Item class="Weld" referent="RBX1054">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<string name="Name">HaloBaseWeld</string>
+<Ref name="Part0">RBX858</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+</Item>
+<Item class="Part" referent="RBX850">
+<Properties>
+<token name="BottomSurface">0</token>
+<CoordinateFrame name="CFrame">
+<X>-406.794067382812</X>
+<Y>108.436706542969</Y>
+<Z>270.423980712891</Z>
+<R00>0.793274223804</R00>
+<R01>0.053112395108</R01>
+<R02>-0.606543540955</R02>
+<R10>-0.033489249647</R10>
+<R11>0.998486042023</R11>
+<R12>0.043633818626</R12>
+<R20>0.607942819595</R20>
+<R21>-0.014300920069</R21>
+<R22>0.793851971626</R22>
+</CoordinateFrame>
+<bool name="CanCollide">false</bool>
+<bool name="CanQuery">false</bool>
+<bool name="CanTouch">false</bool>
+<Color3 name="Color">
+<R>0.917647063732</R>
+<G>0.721568644047</G>
+<B>0.572549045086</B>
+</Color3>
+<bool name="EnableFluidForces">false</bool>
+<bool name="Massless">true</bool>
+<string name="Name">Head</string>
+<Vector3 name="RotVelocity">
+<X>-0.000002497894</X>
+<Y>-0.000000000000</Y>
+<Z>0.000000495656</Z>
+</Vector3>
+<Vector3 name="Size">
+<X>1.899999976158</X>
+<Y>0.949999988079</Y>
+<Z>0.949999988079</Z>
+</Vector3>
+<token name="TopSurface">0</token>
+<float name="Transparency">1.000000000000</float>
+<Vector3 name="Velocity">
+<X>-0.000000557197</X>
+<Y>0.000207729492</Y>
+<Z>-0.000002808032</Z>
+</Vector3>
+</Properties>
+<Item class="WeldConstraint" referent="RBX1055">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.022087097168</X>
+<Y>-0.798339843750</Y>
+<Z>0.526336669922</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.022087097168</X>
+<Y>0.798339843750</Y>
+<Z>0.526336669922</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1012</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1056">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.010246276855</X>
+<Y>-1.123905181885</Y>
+<Z>0.017608642578</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.010246276855</X>
+<Y>1.123905181885</Y>
+<Z>0.017608642578</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX873</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1057">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>1.050292968750</X>
+<Y>-0.010681152344</Y>
+<Z>-1.541526794434</Z>
+<R00>0.000081062317</R00>
+<R01>-1.000000000000</R01>
+<R02>0.000081062317</R02>
+<R10>0.000081062317</R10>
+<R11>-0.000081062317</R11>
+<R12>-1.000000000000</R12>
+<R20>1.000000000000</R20>
+<R21>0.000081062317</R21>
+<R22>0.000081062317</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>1.541442513466</X>
+<Y>1.050417065620</Y>
+<Z>-0.010641332716</Z>
+<R00>0.000081062317</R00>
+<R01>0.000081062317</R01>
+<R02>1.000000000000</R02>
+<R10>-1.000000000000</R10>
+<R11>-0.000081062317</R11>
+<R12>0.000081062317</R12>
+<R20>0.000081062317</R20>
+<R21>-1.000000000000</R21>
+<R22>0.000081062317</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX965</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1058">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.022209167480</X>
+<Y>-0.791870117188</Y>
+<Z>0.526367187500</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.022209167480</X>
+<Y>0.791870117188</Y>
+<Z>0.526367187500</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1005</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1059">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>1.050300598145</X>
+<Y>0.020141601562</Y>
+<Z>-1.521194458008</Z>
+<R00>0.000011384487</R00>
+<R01>-1.000000000000</R01>
+<R02>-0.000004142523</R02>
+<R10>-0.766070842743</R10>
+<R11>-0.000011324883</R11>
+<R12>0.642756104469</R12>
+<R20>-0.642756104469</R20>
+<R21>-0.000004142523</R21>
+<R22>-0.766070842743</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.962339103222</X>
+<Y>1.050294518471</Y>
+<Z>-1.178284525871</Z>
+<R00>0.000011384487</R00>
+<R01>-0.766070842743</R01>
+<R02>-0.642756104469</R02>
+<R10>-1.000000000000</R10>
+<R11>-0.000011324883</R11>
+<R12>-0.000004142523</R12>
+<R20>-0.000004142523</R20>
+<R21>0.642756104469</R21>
+<R22>-0.766070842743</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX953</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1060">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>-0.068748474121</X>
+<Y>-1.032596588135</Y>
+<Z>0.032409667969</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.068748474121</X>
+<Y>1.032596588135</Y>
+<Z>-0.032409667969</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX996</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1061">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>-0.008949279785</X>
+<Y>-1.110107421875</Y>
+<Z>0.324340820312</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.008949279785</X>
+<Y>1.110107421875</Y>
+<Z>-0.324340820312</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX865</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1062">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>-0.020065307617</X>
+<Y>-1.050292968750</Y>
+<Z>0.018859863281</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.020065307617</X>
+<Y>1.050292968750</Y>
+<Z>-0.018859863281</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX894</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1063">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>-0.027458190918</X>
+<Y>-0.906246185303</Y>
+<Z>-0.014038085938</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.027458190918</X>
+<Y>0.906246185303</Y>
+<Z>0.014038085938</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX859</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1064">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>-0.005645751953</X>
+<Y>-1.343997955322</Y>
+<Z>0.013916015625</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.005645751953</X>
+<Y>1.343997955322</Y>
+<Z>-0.013916015625</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX855</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1065">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>1.050289154053</X>
+<Y>-0.006263732910</Y>
+<Z>-1.488800048828</Z>
+<R00>-0.000011324883</R00>
+<R01>-1.000000000000</R01>
+<R02>-0.000004142523</R02>
+<R10>0.766070842743</R10>
+<R11>-0.000011324883</R11>
+<R12>0.642756104469</R12>
+<R20>-0.642756104469</R20>
+<R21>0.000004142523</R21>
+<R22>0.766070842743</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-0.952125012875</X>
+<Y>1.050295233727</Y>
+<Z>1.144556641579</Z>
+<R00>-0.000011324883</R00>
+<R01>0.766070842743</R01>
+<R02>-0.642756104469</R02>
+<R10>-1.000000000000</R10>
+<R11>-0.000011324883</R11>
+<R12>0.000004142523</R12>
+<R20>-0.000004142523</R20>
+<R21>0.642756104469</R21>
+<R22>0.766070842743</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX907</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1066">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>1.050296783447</X>
+<Y>-0.017356872559</Y>
+<Z>-1.513519287109</Z>
+<R00>-0.000000119209</R00>
+<R01>-1.000000119209</R01>
+<R02>0.000000000000</R02>
+<R10>1.000000119209</R10>
+<R11>-0.000000119209</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.017356999218</X>
+<Y>1.050296902657</Y>
+<Z>1.513519287109</Z>
+<R00>-0.000000119209</R00>
+<R01>1.000000119209</R01>
+<R02>0.000000000000</R02>
+<R10>-1.000000119209</R10>
+<R11>-0.000000119209</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX919</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Script" referent="RBX1067">
+<Properties>
+<string name="Name">luckyhalo2021float</string>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1068">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>1.050296783447</X>
+<Y>-0.020141601562</Y>
+<Z>-1.520645141602</Z>
+<R00>-0.000011324883</R00>
+<R01>-1.000000000000</R01>
+<R02>0.000004142523</R02>
+<R10>0.766070842743</R10>
+<R11>-0.000011324883</R11>
+<R12>-0.642756104469</R12>
+<R20>0.642756104469</R20>
+<R21>-0.000004142523</R21>
+<R22>0.766070842743</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.992845714092</X>
+<Y>1.050290226936</Y>
+<Z>1.151971340179</Z>
+<R00>-0.000011324883</R00>
+<R01>0.766070842743</R01>
+<R02>0.642756104469</R02>
+<R10>-1.000000000000</R10>
+<R11>-0.000011324883</R11>
+<R12>-0.000004142523</R12>
+<R20>0.000004142523</R20>
+<R21>-0.642756104469</R21>
+<R22>0.766070842743</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX942</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1069">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>-0.010238647461</X>
+<Y>-1.264263153076</Y>
+<Z>0.041809082031</Z>
+<R00>1.000000000000</R00>
+<R01>0.000086322019</R01>
+<R02>0.000000022354</R02>
+<R10>-0.000086322019</R10>
+<R11>0.999999880791</R11>
+<R12>0.000517932116</R12>
+<R20>0.000000022354</R20>
+<R21>-0.000517932116</R21>
+<R22>0.999999880791</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.010129513219</X>
+<Y>1.264285564423</Y>
+<Z>-0.041154276580</Z>
+<R00>1.000000000000</R00>
+<R01>-0.000086322019</R01>
+<R02>0.000000022354</R02>
+<R10>0.000086322019</R10>
+<R11>0.999999880791</R11>
+<R12>-0.000517932116</R12>
+<R20>0.000000022354</R20>
+<R21>0.000517932116</R21>
+<R22>0.999999880791</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1047</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1070">
+<Properties>
+<CoordinateFrame name="C1">
+<X>0.000007629395</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AnchorWeld</string>
+<Ref name="Part0">RBX91</Ref>
+<Ref name="Part1">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1071">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>-0.010261535645</X>
+<Y>-1.302856445312</Y>
+<Z>-0.017578125000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.010261535645</X>
+<Y>1.302856445312</Y>
+<Z>0.017578125000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX853</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1072">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>1.050289154053</X>
+<Y>0.017219543457</Y>
+<Z>-1.473754882812</Z>
+<R00>-0.000000119209</R00>
+<R01>-1.000000119209</R01>
+<R02>0.000000000000</R02>
+<R10>-1.000000119209</R10>
+<R11>-0.000000119209</R11>
+<R12>0.000000000000</R12>
+<R20>-0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000238419</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.017219670117</X>
+<Y>1.050289273262</Y>
+<Z>-1.473755240440</Z>
+<R00>-0.000000119209</R00>
+<R01>-1.000000119209</R01>
+<R02>-0.000000000000</R02>
+<R10>-1.000000119209</R10>
+<R11>-0.000000119209</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000238419</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX930</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1073">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.000000000000</X>
+<Y>0.000000000000</Y>
+<Z>0.000000000000</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX858</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="Weld" referent="RBX1074">
+<Properties>
+<CoordinateFrame name="C0">
+<X>0.000000000000</X>
+<Y>0.052343107760</Y>
+<Z>0.000000000000</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<CoordinateFrame name="C1">
+<X>0.000007629395</X>
+<Y>-0.000011444092</Y>
+<Z>0.000030517578</Z>
+<R00>0.727660417557</R00>
+<R01>-0.035478420556</R01>
+<R02>0.685019433498</R02>
+<R10>0.059819512069</R10>
+<R11>0.998138904572</R11>
+<R12>-0.011847687885</R12>
+<R20>-0.683324158192</R20>
+<R21>0.049598619342</R21>
+<R22>0.728428483009</R22>
+</CoordinateFrame>
+<Ref name="Part0">RBX850</Ref>
+<Ref name="Part1">RBX858</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1075">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>1.050292968750</X>
+<Y>0.006469726562</Y>
+<Z>-1.543457031250</Z>
+<R00>0.000011384487</R00>
+<R01>-1.000000000000</R01>
+<R02>0.000004142523</R02>
+<R10>-0.766070842743</R10>
+<R11>-0.000011324883</R11>
+<R12>-0.642756104469</R12>
+<R20>0.642756104469</R20>
+<R21>0.000004142523</R21>
+<R22>-0.766070842743</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.997010767460</X>
+<Y>1.050299525261</Y>
+<Z>-1.178243398666</Z>
+<R00>0.000011384487</R00>
+<R01>-0.766070842743</R01>
+<R02>0.642756104469</R02>
+<R10>-1.000000000000</R10>
+<R11>-0.000011324883</R11>
+<R12>0.000004142523</R12>
+<R20>0.000004142523</R20>
+<R21>-0.642756104469</R21>
+<R22>-0.766070842743</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX896</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1076">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.067550659180</X>
+<Y>-1.170410156250</Y>
+<Z>-0.402618408203</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.067550659180</X>
+<Y>1.170410156250</Y>
+<Z>-0.402618408203</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX862</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1077">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.027366638184</X>
+<Y>-1.322631835938</Y>
+<Z>-0.024047851562</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.027366638184</X>
+<Y>1.322631835938</Y>
+<Z>-0.024047851562</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1032</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1078">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>-0.010688781738</X>
+<Y>-1.181396484375</Y>
+<Z>0.330566406250</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.010688781738</X>
+<Y>1.181396484375</Y>
+<Z>-0.330566406250</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX869</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1079">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>-0.069099426270</X>
+<Y>-0.795166015625</Y>
+<Z>0.456298828125</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.069099426270</X>
+<Y>0.795166015625</Y>
+<Z>-0.456298828125</Z>
+<R00>1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX1019</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1080">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>1.050292968750</X>
+<Y>0.010681152344</Y>
+<Z>-1.448249816895</Z>
+<R00>0.000081062317</R00>
+<R01>-1.000000000000</R01>
+<R02>-0.000081062317</R02>
+<R10>0.000081062317</R10>
+<R11>-0.000081062317</R11>
+<R12>1.000000000000</R12>
+<R20>-1.000000000000</R20>
+<R21>-0.000081062317</R21>
+<R22>0.000081062317</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>-1.448335766792</X>
+<Y>1.050176382065</Y>
+<Z>-0.010478613898</Z>
+<R00>0.000081062317</R00>
+<R01>0.000081062317</R01>
+<R02>-1.000000000000</R02>
+<R10>-1.000000000000</R10>
+<R11>-0.000081062317</R11>
+<R12>-0.000081062317</R12>
+<R20>-0.000081062317</R20>
+<R21>1.000000000000</R21>
+<R22>0.000081062317</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX976</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+<Item class="WeldConstraint" referent="RBX1081">
+<Properties>
+<CoordinateFrame name="CFrame0">
+<X>0.020683288574</X>
+<Y>-0.808345794678</Y>
+<Z>0.525726318359</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<CoordinateFrame name="CFrame1">
+<X>0.020683288574</X>
+<Y>0.808345794678</Y>
+<Z>0.525726318359</Z>
+<R00>-1.000000000000</R00>
+<R01>0.000000000000</R01>
+<R02>0.000000000000</R02>
+<R10>0.000000000000</R10>
+<R11>1.000000000000</R11>
+<R12>0.000000000000</R12>
+<R20>0.000000000000</R20>
+<R21>0.000000000000</R21>
+<R22>-1.000000000000</R22>
+</CoordinateFrame>
+<string name="Name">AccessoryPartWeld</string>
+<Ref name="Part0Internal">RBX998</Ref>
+<Ref name="Part1Internal">RBX850</Ref>
+</Properties>
+</Item>
+</Item>
+</Item>
+</roblox>
